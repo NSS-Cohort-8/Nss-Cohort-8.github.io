@@ -1,0 +1,27 @@
+{
+  "name": "nss-cohort-8.github.io",
+  "version": "1.0.0",
+  "description": "Cohort 7's site.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NSS-Cohort-8/nss-cohort-8.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NSS-Cohort-8/nss-cohort-8.github.io/issues"
+  },
+  "homepage": "https://github.com/NSS-Cohort-8/nss-cohort-8.github.io",
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.11",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-jade": "^1.0.1",
+    "gulp-postcss": "^5.1.7",
+    "gulp-sass": "^2.0.1"
+  }
+}
