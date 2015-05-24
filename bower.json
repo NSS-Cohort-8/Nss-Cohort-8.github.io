@@ -1,0 +1,17 @@
+{
+  "name": "nss-cohort-8.github.io",
+  "version": "1.0.0",
+  "homepage": "https://github.com/NSS-Cohort-8/nss-cohort-8.github.io",
+  "authors": [
+    "Brennan Willingham <brennanw22@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
