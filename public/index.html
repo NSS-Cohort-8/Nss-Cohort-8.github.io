@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>COHORT 8 is Great</title>
+  </head>
+  <body ng-app="ch8App">
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a ui-sref="home" class="navbar-brand">Cohort 8</a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a ui-sref="home"><i class="fa fa-home">&nbsp; Home</i></a></li>
+              <li><a ui-sref="nss"><i class="fa fa-bolt">&nbsp; NSS Stuff</i></a></li>
+              <li><a ui-sref="students"><i class="fa fa-bolt">&nbsp; Individual Student Stuff</i></a></li>
+              <li><a ui-sref="contact"><i class="fa fa-bolt">&nbsp; Contact Form for the Class</i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </body>
+  <div ui-view>
+    <script src="vendor/jquery/dist/jquery.js"></script>
+    <script src="vendor/lodash/lodash.js"></script>
+    <script src="vendor/angular/angular.js"></script>
+    <script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="index.js"></script>
+    <script src="models/students.js"></script>
+    <script src="views/students.js"></script>
+  </div>
+</html>

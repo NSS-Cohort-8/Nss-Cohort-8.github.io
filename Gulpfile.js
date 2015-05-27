@@ -2,7 +2,8 @@ var gulp = require('gulp'),
     jade = require('gulp-jade'),
     copy = require('gulp-copy'),
     sass = require('gulp-sass'),
-   watch = require('gulp-watch');
+   watch = require('gulp-watch'),
+   neat = require('node-neat').includePaths;
 
 //////////WATCH////////////////////////////////////
 gulp.task('watch', function () {
@@ -14,7 +15,7 @@ gulp.task('watch', function () {
 gulp.task('sass', function () {
   gulp.src('./app/**/*.scss')
     .pipe(sass({
-      includePaths: require('node-bourbon').includePaths
+      includePaths: require('node-bourbon').includePaths,
       includePaths: require('node-neat').includePaths
     }))
     .on('error', console.error.bind(console))
