@@ -1,8 +1,8 @@
 {
   "name": "nss-cohort-8.github.io",
   "version": "1.0.0",
-  "description": "Cohort 7's site.",
-  "main": "index.html",
+  "description": "Cohort 8's site.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,11 +17,15 @@
   },
   "homepage": "https://github.com/NSS-Cohort-8/nss-cohort-8.github.io",
   "devDependencies": {
+    "bower": "^1.3.12",
     "autoprefixer-core": "^5.1.11",
     "del": "^1.2.0",
     "gulp": "^3.8.11",
     "gulp-jade": "^1.0.1",
     "gulp-postcss": "^5.1.7",
-    "gulp-sass": "^2.0.1"
+    "gulp-sass": "^2.0.1",
+    "gulp-watch": "^4.1.1",
+    "jade": "^1.9.2",
+    "node-sass": "^2.0.1"
   }
 }
