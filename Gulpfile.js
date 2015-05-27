@@ -2,8 +2,10 @@ var gulp = require('gulp'),
     jade = require('gulp-jade'),
     copy = require('gulp-copy'),
     sass = require('gulp-sass'),
-   watch = require('gulp-watch'),
-   neat = require('node-neat').includePaths;
+    watch = require('gulp-watch'),
+    neat  = require('node-neat').includePaths,
+  livereload = require('gulp-livereload');
+    // Livereload plugin needed: https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en
 
 //////////WATCH////////////////////////////////////
 gulp.task('watch', function () {
@@ -32,6 +34,7 @@ gulp.task('jade', function() {
     .pipe(jade({pretty: true, doctype: 'html'}))
     .on('error', console.error.bind(console))
     .pipe(gulp.dest('./public/'))
+    .pipe(livereload());
 });
 //////////DEFAULT////////////////////////////////////
 gulp.task('build', ['copy', 'jade', 'sass']);
