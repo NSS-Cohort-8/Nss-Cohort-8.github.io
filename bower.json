@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "homepage": "https://github.com/NSS-Cohort-8/nss-cohort-8.github.io",
   "authors": [
-    "Brennan Willingham <brennanw22@gmail.com>"
+    "Brennan Willingham <brennanw22@gmail.com>",
+    "Erin Page <erinpagemd@gmail.com>"
   ],
   "main": "index.html",
   "license": "MIT",
@@ -16,8 +17,11 @@
     "public/vendor"
   ],
   "devDependencies": {
-    "angular": "~1.3.15",
-    "font-awesome": "~4.3.0",
-    "angular-ui-router": "~0.2.15"
-  }
+  },
+  "dependencies": {
+  "jquery": "~2.1.3",
+  "lodash": "~3.5.0",
+  "angular": "~1.3.14",
+  "font-awesome": "~4.3.0",
+  "angular-ui-router": "~0.2.13"
 }
