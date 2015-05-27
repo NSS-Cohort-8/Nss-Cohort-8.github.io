@@ -12,7 +12,7 @@ angular
   $stateProvider
     .state('home', {url:'/', templateUrl:'views/home.html'})
     .state('nss', {url:'/nss', templateUrl:'views/nss.html'})
-    .state('students', {url:'/students', templateUrl:'views/students.html', controller:'StudentCtrl'})
+    .state('students', {url:'/students', templateUrl:'views/students.html', controller:'StudentsCtrl'})
     .state('contact', {url:'/contact', templateUrl:'views/contact.html'})
 
 });
