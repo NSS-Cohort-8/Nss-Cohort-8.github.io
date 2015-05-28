@@ -13,10 +13,12 @@
 ```
 npm install
 bower install
-gulp build
-gulp watch
+gulp
 ```
-in separate terminal window
+
+page should load on localhost:8000
+
+No need to use:
 ```
 python -m SimpleHTTPServer
 ```
