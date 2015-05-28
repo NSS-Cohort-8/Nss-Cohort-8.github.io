@@ -2,11 +2,13 @@
 
 * Making a profile page for our class.
 
-## There should be 4 main divs:
+## There should be 4 main divs and a navbar:
 1. Class pic
 2. Nss Info
 3. Individual pics and information
 4. Contact us
+5. Navbar
+
 
 ## Run by::
 
@@ -19,10 +21,6 @@ gulp
 gulp will take a few minutes to build (be patient)
 page should load on localhost:8000
 
-No need to use:
-```
-python -m SimpleHTTPServer
-```
 
 ## Config and File Structure
 1. bower components are put into a vendor folder in public. if you erase the public folder, you must bower install again.
