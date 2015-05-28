@@ -16,6 +16,7 @@ bower install
 gulp
 ```
 
+gulp will take a few minutes to build (be patient)
 page should load on localhost:8000
 
 No need to use:
