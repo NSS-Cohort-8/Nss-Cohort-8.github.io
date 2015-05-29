@@ -1,6 +1,6 @@
 angular
 .module('ch8App')
-.controller('StudentsCtrl', function ($scope, StudentsFactory){
+.controller('StudentsCtrl', function ($rootScope, StudentsFactory){
 
-  $scope.students = StudentsFactory
+  $rootScope.students = StudentsFactory
 })
