@@ -11,8 +11,8 @@ angular
       github: 'http://github.com/wiggles',
       twitter: 'http://twitter.com/wiggles',
       summary: 'As a dog, I learned so much about coding and coders at Nashville Software School. I am basically a node ninja. My capstone project is a snack tracker. I record the eating behavior of the programmers, and estimate when is the most likely time they will feed me.',
-      pic1: 'location',
-      pic2: 'location'
+      pic1: '../images/wiggles1.jpg',
+      pic2: '../images/wiggles2.jpg'
     },
     {
       name: 'Biddy',
@@ -21,8 +21,8 @@ angular
       github: 'http://github.com/biddy',
       twitter: 'http://twitter.com/biddy',
       summary: 'I am super into my couch at home. When I have to be away from it, I like to code. The technology I liked learning most at NSS is bower. Not only is is crazy useful, but it sounds like a dog word.',
-      pic1: 'location1',
-      pic2: 'location2'
+      pic1: '../images/biddy1.jpg',
+      pic2: '../images/biddy2.jpg'
     }
   ]
 
