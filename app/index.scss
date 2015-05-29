@@ -2,28 +2,49 @@
 @import "bourbon";
 @import "neat";
 
-h1 {
-  color: green;
-}
-
 /////////////////////////////// HOME VIEW ///////////////////////////////////
-
+#home {
+  //styling for home div
+  h1 {
+    color: purple;
+  }
+}
 
 
 //////////////////// NSS VIEW ///////////////////////////////////
-
+#nss {
+  //styling for nss div
+  h1 {
+    color: blue;
+  }
+}
 
 
 ///////////////////////// STUDENTS VIEW /////////////////////////////
-
+#students {
+  //styling for students div
+  h1 {
+    color: tomato;
+  }
+}
 
 
 ///////////////////////// CONTACT VIEW /////////////////////////////
-
+#contact {
+  //styling for contact div here
+  h1 {
+    color: green;
+  }
+}
 
 
 ///////////////////////// NAV /////////////////////////////
-
+#nav-header {
+  //styling for nav
+  a {
+    color: orange;
+  }
+}
 
 
 

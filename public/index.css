@@ -6,8 +6,20 @@ html {
 *::before {
   box-sizing: inherit; }
 
-h1 {
+#home h1 {
+  color: purple; }
+
+#nss h1 {
+  color: blue; }
+
+#students h1 {
+  color: tomato; }
+
+#contact h1 {
   color: green; }
+
+#nav-header a {
+  color: orange; }
 
 body {
   background-color: #edefed; }

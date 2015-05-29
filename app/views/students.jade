@@ -1,10 +1,11 @@
-h1 this page is all about students!!
-.container(ng-repeat='student in students')
-  h2 {{student.name}}
-  h3: a(href='{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp Portfolio
-  p: a(href=' {{student.linkedin}}'): i.fa.fa-linkedin-square
-  p: a(href='{{student.github}}'): i.fa.fa-github-alt
-  p: a(href='{{student.twitter}}'): i.fa.fa-twitter
-  p {{student.summary}}
-  img(src='{{student.pic1}}' height=200 width=200)
-  img(src='{{student.pic2}}' height=200 width=200)
+#students
+  h1 this page is all about students!!
+  .container(ng-repeat='student in students')
+    h2 {{student.name}}
+    h3: a(href='{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp Portfolio
+    p: a(href=' {{student.linkedin}}'): i.fa.fa-linkedin-square
+    p: a(href='{{student.github}}'): i.fa.fa-github-alt
+    p: a(href='{{student.twitter}}'): i.fa.fa-twitter
+    p {{student.summary}}
+    img(src='{{student.pic1}}' height=200 width=200)
+    img(src='{{student.pic2}}' height=200 width=200)

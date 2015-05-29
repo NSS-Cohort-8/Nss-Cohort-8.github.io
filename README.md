@@ -33,3 +33,10 @@ page should load on localhost:8000
 * Let's do everything on development branch.
 * We will deploy the public folder ONLY to the master branch.
 * BEFORE YOU PUSH TO DEVELOPMENT::: git pull, make sure everything works, then push.
+
+## On styling
+* We are going to use Bootstrap for the modal on the student page. We can use it minimally elsewhere, but prefer bourbon over bootstrap as main styling tool.
+* The index.scss file has the styling for all of the divs currently. We can break those out into partials. If you want, save an scss file in views with the same name as your div. Include it in the index.scss file.
+* Do all of your styling in scss inside of the appropriate div ID to avoid having conflicts with styling. I made a div ID that associates with each main div in the appropraiate jade file. I linked some colors in index.scss so you can see where to start!
+* Our main philosophy overall will be SIMPLE AND CLEAN. Let's use color to make things pop, not distract the user. When we are finished with individual divs, we will discuss the layout and styling of the page overall. Probably some refactor there.
+* I don't think anyone has experience with Bourbon, so lean on each other!! If you see a good resource out there, be sure to share it. 
