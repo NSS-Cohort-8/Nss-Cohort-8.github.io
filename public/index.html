@@ -9,21 +9,14 @@
     <title>COHORT 8 is Great</title>
   </head>
   <body ng-app="ch8App">
-    <div class="container">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a ui-sref="home" class="navbar-brand">Cohort 8</a>
-          </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a ui-sref="home"><i class="fa fa-home">&nbsp; Home</i></a></li>
-              <li><a ui-sref="nss"><i class="fa fa-bolt">&nbsp; NSS Stuff</i></a></li>
-              <li><a ui-sref="students"><i class="fa fa-bolt">&nbsp; Individual Student Stuff</i></a></li>
-              <li><a ui-sref="contact"><i class="fa fa-bolt">&nbsp; Contact Form for the Class</i></a></li>
-            </ul>
-          </div>
-        </div>
+    <div id="nav-header">
+      <nav><a ui-sref="home">Cohort 8</a>
+        <ul>
+          <li><a ui-sref="home"><i class="fa fa-home">&nbsp; Home</i></a></li>
+          <li><a ui-sref="nss"><i class="fa fa-bolt">&nbsp; NSS Stuff</i></a></li>
+          <li><a ui-sref="students"><i class="fa fa-bolt">&nbsp; Individual Student Stuff</i></a></li>
+          <li><a ui-sref="contact"><i class="fa fa-bolt">&nbsp; Contact Form for the Class</i></a></li>
+        </ul>
       </nav>
     </div>
   </body>

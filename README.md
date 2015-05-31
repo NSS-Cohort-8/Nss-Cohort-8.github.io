@@ -2,11 +2,45 @@
 
 * Making a profile page for our class.
 
-## There should be 4 main divs:
+## There should be 4 main divs and a navbar:
 1. Class pic
-2. Nss Info
+2. Nss Info = Katye
 3. Individual pics and information
-4. Contact us
+4. Contact us = Brian
+5. Navbar = Brennan
+
+### Class pic
+1. hover shows the silly pic
+2. additional suggestions...
+
+### NSS Info
+1. short info about the program? i.e. it is a bootcamp??
+2. technologies we learned. logos + links
+3. additional suggestions...
+
+### Students
+1. please see myemma.com/meet-us
+  * group pic at top faded with content
+  * individual pics with silly pic on hover
+2. when click on pic, modal pops open
+3. modal contains name, pic, summary, links to github, portfolio, linkedin.
+4. additional suggestions...
+
+### Contact
+1. SimpleForm that links to our google-group email
+2. fields
+ * name
+ * email
+ * phone?
+ * message
+ * company?
+ * title
+3. additional suggestions...
+
+### Navbar
+1. mobile version?
+2. links to home, nss div, students, and contact form
+3. nss logo?
 
 ## Run by::
 
@@ -19,10 +53,6 @@ gulp
 gulp will take a few minutes to build (be patient)
 page should load on localhost:8000
 
-No need to use:
-```
-python -m SimpleHTTPServer
-```
 
 ## Config and File Structure
 1. bower components are put into a vendor folder in public. if you erase the public folder, you must bower install again.
@@ -35,3 +65,11 @@ python -m SimpleHTTPServer
 * Let's do everything on development branch.
 * We will deploy the public folder ONLY to the master branch.
 * BEFORE YOU PUSH TO DEVELOPMENT::: git pull, make sure everything works, then push.
+
+## On styling
+* We are going to use Bootstrap for the modal on the student page. We can use it minimally elsewhere, but prefer bourbon over bootstrap as main styling tool.
+* The index.scss file has the styling for all of the divs currently. We can break those out into partials. If you want, save an scss file in views with the same name as your div. Include it in the index.scss file.
+* Do all of your styling in scss inside of the appropriate div ID to avoid having conflicts with styling. I made a div ID that associates with each main div in the appropraiate jade file. I linked some colors in index.scss so you can see where to start!
+* Our main philosophy overall will be SIMPLE AND CLEAN. Let's use color to make things pop, not distract the user. When we are finished with individual divs, we will discuss the layout and styling of the page overall. Probably some refactor there.
+* I don't think anyone has experience with Bourbon, so lean on each other!! If you see a good resource out there, be sure to share it.
+* Should we use the same color pallette as NSS website? I think they are grey, orange, white?? 

@@ -1,5 +1,6 @@
 angular
 .module('ch8App')
-.controller('StudentsCtrl', function (){
-  //start javascripting!!
+.controller('StudentsCtrl', function ($rootScope, StudentsFactory){
+
+  $rootScope.students = StudentsFactory
 })
