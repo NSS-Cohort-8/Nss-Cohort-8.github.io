@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "homepage": "https://github.com/NSS-Cohort-8/nss-cohort-8.github.io",
   "authors": [
+    "Erin Page <erinpagemd@gmail.com>",
     "Brennan Willingham <brennanw22@gmail.com>",
-    "Erin Page <erinpagemd@gmail.com>"
+    "Bryan Finlayson <bdfinlayson@gmail.com>",
+    "Katye Russell <katye.russell@gmail.com>",
   ],
   "main": "index.html",
   "license": "MIT",
