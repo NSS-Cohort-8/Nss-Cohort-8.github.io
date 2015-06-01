@@ -7,128 +7,166 @@ angular
   //skills data goes here. return an array of objects
 
   var skills = [
-
     {
-      skill: 'Git',
+      name: 'Git',
       link: 'https://git-scm.com/doc',
-      logo: './app/assets/images/logos/git_logo_words.png'
+      logo: '../images/logos/git_logo_words.jpg',
+      type: 'git'
     },
     {
-      skill: 'GitHub',
+      name: 'GitHub',
       link: 'http://github.com/',
-      logo: './app/assets/images/logos/github_logo_words.png'
+      logo: '../images/logos/github_logo_words_block.png',
+      type: 'git'
     },
     {
-      skill: 'Markdown',
+      name: 'Markdown',
       link: 'http://daringfireball.net/projects/markdown/basics',
-      logo: './app/assets/images/logos/markdown_logo_black.png'
+      logo: '../images/logos/markdown_logo_white.png',
+      type: 'git'
     },
     {
-      skill: 'CSS3',
+      name: 'CSS3',
       link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
-      logo: './app/assets/images/logos/CSS3_logo.jpg'
+      logo: '../images/logos/CSS3_logo_words.png',
+      type: 'style'
     },
     {
-      skill: 'HTML5',
+      name: 'HTML5',
       link: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
-      logo: './app/assets/images/logos/html5_logo_words.png'
+      logo: '../images/logos/html5_logo_words.png',
+      type: 'style'
     },
     {
-      skill: 'Jade',
-      link: 'http://jade-lang.com/',
-      logo: './app/assets/images/logos/html5_logo_words.png'
-    },
-    {
-      skill: 'Sass',
-      link: 'http://sass-lang.com/',
-      logo: './app/assets/images/logos/sass_logo_words.jpg'
-    },
-    {
-      skill: 'Grunt',
-      link: 'http://gruntjs.com/',
-      logo: './app/assets/images/logos/grunt_logo_words.png'
-    },
-    {
-      skill: 'Gulp',
-      link: 'http://gulpjs.com/',
-      logo: './app/assets/images/logos/gulp_logo_words.png'
-    },
-    {
-      skill: 'Bootstrap',
+      name: 'Bootstrap',
       link: 'http://getbootstrap.com/',
-      logo: './app/assets/images/logos/bootstrap_words.png'
+      logo: '../images/logos/bootstrap_logo_small.png',
+      type: 'frame'
     },
     {
-      skill: 'Jekyll',
+      name: 'Jekyll',
       link: 'http://jekyllrb.com/',
-      logo: './app/assets/images/logos/jekyll_logo_words_black.png'
+      logo: '../images/logos/jekyll_logo_words_black.png',
+      type: 'frame'
     },
     {
-      skill: 'JavaScript',
+      name: 'Foundation',
+      link: 'http://jekyllrb.com/',
+      logo: '../images/logos/foundation_logo.jpg',
+      type: 'frame'
+    },
+    {
+      name: 'Jade',
+      link: 'http://jade-lang.com/',
+      logo: '../images/logos/jade_logo_words.png',
+      type: 'style'
+    },
+    {
+      name: 'Sass',
+      link: 'http://sass-lang.com/',
+      logo: '../images/logos/sass_logo_words.jpg',
+      type: 'style'
+    },
+    {
+      name: 'Grunt',
+      link: 'http://gruntjs.com/',
+      logo: '../images/logos/grunt_logo_words.png',
+      type: 'style'
+    },
+    {
+      name: 'Gulp',
+      link: 'http://gulpjs.com/',
+      logo: '../images/logos/gulp_logo_words.png',
+      type: 'style'
+    },
+    {
+      name: 'JavaScript',
       link: 'http://javascript.crockford.com/',
-      logo: './app/assets/images/logos/javascript_logo_words.png'
+      logo: '../images/logos/javascript_logo_words.png',
+      type: 'language'
     },
     {
-      skill: 'jQuery',
+      name: 'jQuery',
       link: 'http://api.jquery.com/',
-      logo: './app/assets/images/logos/jquery_logo_words.png'
+      logo: '../images/logos/jquery_logo_words.gif',
+      type: 'language'
     },
     {
-      skill: 'AngularJS',
+      name: 'AngularJS',
       link: 'https://angularjs.org/',
-      logo: './app/assets/images/logos.angular_logo_words.png'
+      logo: '../images/logos/angular_logo_words.png',
+      type: 'language'
     },
     {
-      skill: 'Ruby',
+      name: 'Ruby',
       link: 'http://ruby-doc.org/',
-      logo: './app/assets/images/logos/ruby_logo_words.png'
+      logo: '../images/logos/ruby_logo_words.png',
+      type: 'language'
     },
     {
-      skill: 'Rails',
+      name: 'Rails',
       link: 'http://rubyonrails.org/documentation/',
-      logo: './app/assets/images/logos/rails_logo_words.png'
+      logo: '../images/logos/rails_logo_words.jpg',
+      type: 'language'
     },
     {
-      skill: 'Mocha',
+      name: 'Mocha',
       link: 'http://mochajs.org/',
-      logo: './app/assets/images/logos/mocha_logo_words.png'
+      logo: '../images/logos/mocha_logo_words.png',
+      type: 'test'
     },
     {
-      skill: 'Chai',
+      name: 'Chai',
       link: 'http://chaijs.com/',
-      logo: './app/assets/images/logos/chai_logo_words.png'
+      logo: '../images/logos/chai_logo_words.png',
+      type: 'test'
     },
     {
-      skill: 'RSpec',
+      name: 'RSpec',
       link: 'http://rspec.info/',
-      logo: './app/assets/images/logos/rspec_logo_words.png'
+      logo: '../images/logos/rspec_logo_words.png',
+      type: 'test'
     },
     {
-      skill: 'Firebase',
+      name: 'Capybara',
+      link: 'http://jnicklas.github.io/capybara/',
+      logo: '../images/logos/capybara_logo_words.png',
+      type: 'test'
+    },
+    {
+      name: 'Firebase',
       link: 'https://www.firebase.com/',
-      logo: './app/assets/images/logos/firebase_logo_words.png'
+      logo: '../images/logos/firebase_logo_round.png',
+      type: 'database'
     },
     {
-      skill: 'JSON',
+      name: 'JSON',
       link: 'http://json.org/',
-      logo: './app/assets/images/logos/json_logo_words.png'
+      logo: '../images/logos/json_logo.gif',
+      type: 'database'
     },
     {
-      skill: 'SQLite',
+      name: 'SQLite',
       link: 'http://sqlite.org/',
-      logo: './app/assets/images/logos/sqlite_logo_words.png'
+      logo: '../images/logos/sqlite_logo_words_block.jpg',
+      type: 'database'
     },
     {
-      skill: 'SQL',
+      name: 'SQL',
       link: 'http://sql.org/',
-      logo: './app/assets/images/logos/sql_logo_words.png'
+      logo: '../images/logos/sql_logo_words.png',
+      type: 'database'
     },
     {
-      skill: 'Postgres',
+      name: 'Postgres',
       link: 'http://www.postgresql.org/',
-      logo: './app/assets/images/logos/postgres_logo_words.png'
+      logo: '../images/logos/postgresql_logo_words_block.png',
+      type: 'database'
     }
   ]
 
-  return skills
+  return skills;
+
 })
+
+
