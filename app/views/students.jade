@@ -1,19 +1,27 @@
 #students
-  h1 this page is all about students!!
-  .container(ng-repeat='student in students')
-    h2 {{student.name}}
+  .title
+    h1 we came to code
+  .each-student(ng-repeat='student in students')
     img(src='{{student.pic1}}' height=200 width=200 data-toggle='modal' data-target='#myModal{{$index}}')
+    h2 {{student.name}}
 
     .modal.fade(tabindex='-1' role='dialog' id='myModal{{$index}}' aria-labelledby='myModalLabel' aria-hidden=true)
       .modal-dialog
         .modal-content
           .modal-header
             button(type='button' class='close' data-dismiss='modal' arai-label='Close'): span(aria-hidden='true')&times;
-          .modal-body
             h2 {{student.name}}
-            img(src='{{student.pic2}}' height=200 width=200)
-            h3: a(href='{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp Portfolio
-            p: a(href=' {{student.linkedin}}'): i.fa.fa-linkedin-square
-            p: a(href='{{student.github}}'): i.fa.fa-github-alt
-            p: a(href='{{student.twitter}}'): i.fa.fa-twitter
+          .modal-body
+            .container-fluid
+              .row
+                .col-md-6
+                  img(src='{{student.pic2}}' height=200 width=200)
+                .col-md-6
+                  .row
+                    h3: a(href='{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp Portfolio
+                  .row.contact-me
+                    h3: a(href=' {{student.linkedin}}'): i.fa.fa-linkedin-square
+                    h3: a(href='{{student.github}}'): i.fa.fa-github-alt
+                    h3: a(href='{{student.twitter}}'): i.fa.fa-twitter
+          .modal-footer
             p {{student.summary}}

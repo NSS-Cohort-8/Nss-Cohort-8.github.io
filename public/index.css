@@ -5872,8 +5872,21 @@ html {
 #nss h1 {
   color: #2c7fef; }
 
-#students h1 {
-  color: #ef482c; }
+#students {
+  text-align: center;
+  margin: 1%; }
+  #students h2 {
+    color: #555; }
+  #students .each-student {
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    background-color: #fff; }
+  #students .modal-footer {
+    text-align: center; }
+  #students .contact-me h3 {
+    display: inline-block;
+    margin: 0 3%; }
 
 #contact h1 {
   color: #77c65f; }
@@ -5882,4 +5895,4 @@ html {
   color: #f68b1f; }
 
 body {
-  background-color: #fff; }
+  background-color: #e9e9e9; }

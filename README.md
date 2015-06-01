@@ -21,10 +21,10 @@
 ### Students
 1. please see myemma.com/meet-us
   * group pic at top faded with content
-  * individual pics with silly pic on hover
 2. when click on pic, modal pops open
-3. modal contains name, pic, summary, links to github, portfolio, linkedin.
-4. additional suggestions...
+3. modal contains name, silly pic, summary, links to github, portfolio, linkedin.
+4. set min and max sizes? main differences will be the space the name takes up after standardizing the pic size...
+5. additional suggestions...
 
 ### Contact
 1. SimpleForm that links to our google-group email

@@ -38,8 +38,31 @@ $light-green: #E6EFC2;
 ///////////////////////// STUDENTS VIEW /////////////////////////////
 #students {
   //styling for students div
-  h1 {
-    color: $red;
+  text-align: center;
+  margin: 1%;
+
+  h2 {
+    color: $dark-grey;
+  }
+
+  .each-student {
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+    background-color: $white;
+  }
+
+  .modal-footer {
+    text-align: center;
+  }
+
+  .contact-me {
+
+    h3 {
+      display: inline-block;
+      margin: 0 3%;
+    }
+
   }
 }
 
@@ -65,5 +88,5 @@ $light-green: #E6EFC2;
 
 /////////////////////////////// HTML ///////////////////////////////////
 body {
-  background-color: $white;
+  background-color: $superlight-grey;
 }
