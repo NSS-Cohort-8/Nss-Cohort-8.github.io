@@ -1,6 +1,7 @@
 // @import '../public/vendor/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import "bourbon";
 @import "neat";
+@import "variables";
 
 /////////////////////////////// HOME VIEW ///////////////////////////////////
 #home {
@@ -14,8 +15,52 @@
 //////////////////// NSS VIEW ///////////////////////////////////
 #nss {
   //styling for nss div
+
+  #logo {
+    text-align: center;
+  }
+
+
+  #skills {
+    background-color: $white;
+    text-align: center;
+  }
+
+  #gitskills,
+  #styleskills,
+  #frameskills,
+  #languageskills,
+  #testskills,
+  #databaseskills {
+    display: inline-block;
+    background-color: $white;
+  }
+
+  p {
+    color: $orange;
+    padding-bottom: 40px;
+  }
+
   h1 {
-    color: blue;
+    color: $orange;
+    font-family: $header-font-family;
+  }
+
+  h3 {
+    color: $medium-grey;
+    font-family: $header-font-family;
+  }
+
+  #logo img {
+    height: 200px;
+    padding: 20px;
+    background-color: $white;
+    border: solid 2px $light-grey;
+  }
+
+  img {
+    height: 100px;
+    padding: 10px;
   }
 }
 
