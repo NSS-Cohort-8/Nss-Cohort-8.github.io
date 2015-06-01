@@ -2,9 +2,9 @@
   h1 this page is all about students!!
   .container(ng-repeat='student in students')
     h2 {{student.name}}
-    img(src='{{student.pic1}}' height=200 width=200 data-toggle='modal' data-target='#myModal')
+    img(src='{{student.pic1}}' height=200 width=200 data-toggle='modal' data-target='#myModal{{$index}}')
 
-    #myModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden=true)
+    .modal.fade(tabindex='-1' role='dialog' id='myModal{{$index}}' aria-labelledby='myModalLabel' aria-hidden=true)
       .modal-dialog
         .modal-content
           .modal-header
