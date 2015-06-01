@@ -47,9 +47,19 @@ $light-green: #E6EFC2;
 
   .each-student {
     display: inline-block;
-    padding: 1%;
-    margin: 1%;
+    margin: 1% 0.5%;
     background-color: $white;
+    width: 35rem;
+
+    img {
+      width: 35rem;
+      height: 35rem;
+    }
+
+    h2 {
+      padding: 4% 0;
+    }
+
   }
 
   .modal-footer {
@@ -57,7 +67,6 @@ $light-green: #E6EFC2;
   }
 
   .contact-me {
-
     h3 {
       display: inline-block;
       margin: 0 3%;

@@ -5879,9 +5879,14 @@ html {
     color: #555; }
   #students .each-student {
     display: inline-block;
-    padding: 1%;
-    margin: 1%;
-    background-color: #fff; }
+    margin: 1% 0.5%;
+    background-color: #fff;
+    width: 35rem; }
+    #students .each-student img {
+      width: 35rem;
+      height: 35rem; }
+    #students .each-student h2 {
+      padding: 4% 0; }
   #students .modal-footer {
     text-align: center; }
   #students .contact-me h3 {

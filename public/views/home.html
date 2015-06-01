@@ -9,7 +9,7 @@
   <div class="title">
     <h1>we came to code</h1>
   </div>
-  <div ng-repeat="student in students" class="each-student"><img src="{{student.pic1}}" height="200" width="200" data-toggle="modal" data-target="#myModal{{$index}}">
+  <div ng-repeat="student in students" class="each-student"><img src="{{student.pic1}}" data-toggle="modal" data-target="#myModal{{$index}}">
     <h2>{{student.name}}</h2>
     <div tabindex="-1" role="dialog" id="myModal{{$index}}" aria-labelledby="myModalLabel" aria-hidden class="modal fade">
       <div class="modal-dialog">
@@ -21,7 +21,7 @@
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-6"><img src="{{student.pic2}}" height="200" width="200"></div>
+                <div class="col-md-6"><img src="{{student.pic2}}"></div>
                 <div class="col-md-6">
                   <div class="row">
                     <h3><a href="{{student.portfolio}}"><i class="fa fa-floppy-o">&nbsp Portfolio</i></a></h3>

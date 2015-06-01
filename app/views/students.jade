@@ -2,7 +2,7 @@
   .title
     h1 we came to code
   .each-student(ng-repeat='student in students')
-    img(src='{{student.pic1}}' height=200 width=200 data-toggle='modal' data-target='#myModal{{$index}}')
+    img(src='{{student.pic1}}' data-toggle='modal' data-target='#myModal{{$index}}')
     h2 {{student.name}}
 
     .modal.fade(tabindex='-1' role='dialog' id='myModal{{$index}}' aria-labelledby='myModalLabel' aria-hidden=true)
@@ -15,7 +15,7 @@
             .container-fluid
               .row
                 .col-md-6
-                  img(src='{{student.pic2}}' height=200 width=200)
+                  img(src='{{student.pic2}}')
                 .col-md-6
                   .row
                     h3: a(href='{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp Portfolio
