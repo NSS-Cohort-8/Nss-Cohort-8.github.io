@@ -5869,7 +5869,43 @@ html {
 #home h1 {
   color: #926AB2; }
 
+#nss #logo {
+  text-align: center; }
+
+#nss #skills {
+  background-color: #fff;
+  text-align: center; }
+
+#nss #gitskills,
+#nss #styleskills,
+#nss #frameskills,
+#nss #languageskills,
+#nss #testskills,
+#nss #databaseskills {
+  display: inline-block;
+  background-color: #fff; }
+
+#nss p {
+  color: #f68b1f;
+  padding-bottom: 40px; }
+
 #nss h1 {
+  color: #f68b1f;
+  font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
+
+#nss h4 {
+  color: #cececf;
+  font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
+
+#nss #logo img {
+  height: 200px;
+  padding: 20px;
+  background-color: #fff;
+  border: solid 2px #cececf; }
+
+#nss img {
+  height: 100px;
+  padding: 10px;
   color: #2c7fef; }
 
 #students {
