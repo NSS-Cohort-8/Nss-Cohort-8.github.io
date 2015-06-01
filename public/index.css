@@ -5876,7 +5876,13 @@ html {
   text-align: center;
   margin: 1%; }
   #students h2 {
-    color: #555; }
+    color: #555;
+    padding: 4% 0; }
+  #students .modal .modal-content h2 {
+    padding: 0; }
+  #students .modal .modal-content img {
+    width: 30rem;
+    height: 30rem; }
   #students .each-student {
     display: inline-block;
     margin: 1% 0.5%;
@@ -5885,8 +5891,6 @@ html {
     #students .each-student img {
       width: 35rem;
       height: 35rem; }
-    #students .each-student h2 {
-      padding: 4% 0; }
   #students .modal-footer {
     text-align: center; }
   #students .contact-me h3 {
