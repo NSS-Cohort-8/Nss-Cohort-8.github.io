@@ -6,7 +6,7 @@
 1. Class pic
 2. Nss Info = Katye
 3. Individual pics and information
-4. Contact us = Brian
+4. Contact us = Bryan
 5. Navbar = Brennan
 
 ### Class pic
@@ -72,4 +72,5 @@ page should load on localhost:8000
 * Do all of your styling in scss inside of the appropriate div ID to avoid having conflicts with styling. I made a div ID that associates with each main div in the appropraiate jade file. I linked some colors in index.scss so you can see where to start!
 * Our main philosophy overall will be SIMPLE AND CLEAN. Let's use color to make things pop, not distract the user. When we are finished with individual divs, we will discuss the layout and styling of the page overall. Probably some refactor there.
 * I don't think anyone has experience with Bourbon, so lean on each other!! If you see a good resource out there, be sure to share it.
-* Should we use the same color pallette as NSS website? I think they are grey, orange, white?? 
+* Should we use the same color pallette as NSS website? I think they are grey, orange, white??
+* Added variables file from the update-in-progress version of the NSS website.  We can draw from that for consistency.
