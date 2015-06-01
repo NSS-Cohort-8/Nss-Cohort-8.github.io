@@ -1,4 +1,4 @@
-// @import '../public/vendor/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import '../public/vendor/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import "bourbon";
 @import "neat";
 @import "variables";
@@ -7,7 +7,7 @@
 #home {
   //styling for home div
   h1 {
-    color: purple;
+    color: $purple;
   }
 }
 
@@ -61,6 +61,8 @@
   img {
     height: 100px;
     padding: 10px;
+
+    color: $blue;
   }
 }
 
@@ -68,8 +70,48 @@
 ///////////////////////// STUDENTS VIEW /////////////////////////////
 #students {
   //styling for students div
-  h1 {
-    color: tomato;
+  text-align: center;
+  margin: 1%;
+
+  h2 {
+    color: $dark-grey;
+    padding: 4% 0;
+
+  }
+
+  .modal .modal-content h2 {
+    padding: 0;
+  }
+
+
+  .modal .modal-content img  {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .each-student {
+    display: inline-block;
+    margin: 1% 0.5%;
+    background-color: $white;
+    width: 35rem;
+
+    img {
+      width: 35rem;
+      height: 35rem;
+    }
+
+  }
+
+  .modal-footer {
+    text-align: center;
+  }
+
+  .contact-me {
+    h3 {
+      display: inline-block;
+      margin: 0 3%;
+    }
+
   }
 }
 
@@ -78,7 +120,7 @@
 #contact {
   //styling for contact div here
   h1 {
-    color: green;
+    color: $green;
   }
 }
 
@@ -87,7 +129,7 @@
 #nav-header {
   //styling for nav
   a {
-    color: orange;
+    color: $orange;
   }
 }
 
@@ -95,5 +137,5 @@
 
 /////////////////////////////// HTML ///////////////////////////////////
 body {
-  background-color: #edefed;
+  background-color: $superlight-grey;
 }
