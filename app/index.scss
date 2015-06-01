@@ -2,11 +2,26 @@
 @import "bourbon";
 @import "neat";
 
+$light-grey: #cececf;
+$medium-grey: #939598;
+$grey: $medium-grey;
+$dark-grey: #555;
+$superlight-grey: #e9e9e9;
+$footer-grey: #b9b9b9;
+$white: #fff;
+$orange: #f68b1f;
+$green: #77c65f;
+$blue: #2c7fef;
+$red: #ef482c;
+$purple: #926AB2;
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
 /////////////////////////////// HOME VIEW ///////////////////////////////////
 #home {
   //styling for home div
   h1 {
-    color: purple;
+    color: $purple;
   }
 }
 
@@ -15,7 +30,7 @@
 #nss {
   //styling for nss div
   h1 {
-    color: blue;
+    color: $blue;
   }
 }
 
@@ -24,7 +39,7 @@
 #students {
   //styling for students div
   h1 {
-    color: tomato;
+    color: $red;
   }
 }
 
@@ -33,7 +48,7 @@
 #contact {
   //styling for contact div here
   h1 {
-    color: green;
+    color: $green;
   }
 }
 
@@ -42,7 +57,7 @@
 #nav-header {
   //styling for nav
   a {
-    color: orange;
+    color: $orange;
   }
 }
 
@@ -50,5 +65,5 @@
 
 /////////////////////////////// HTML ///////////////////////////////////
 body {
-  background-color: #edefed;
+  background-color: $white;
 }
