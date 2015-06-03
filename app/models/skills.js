@@ -23,13 +23,13 @@ angular
       name: 'Markdown',
       link: 'http://daringfireball.net/projects/markdown/basics',
       logo: '../images/logos/markdown_logo_white.png',
-      type: 'git'
+      type: 'preprocs'
     },
     {
       name: 'Haml',
       link: 'http://haml.info/',
       logo: '../images/logos/haml_logo_words.png',
-      type: 'git'
+      type: 'preprocs'
     },
     {
       name: 'CSS3',
@@ -65,25 +65,25 @@ angular
       name: 'Jade',
       link: 'http://jade-lang.com/',
       logo: '../images/logos/jade_logo_words.png',
-      type: 'style'
+      type: 'preprocs'
     },
     {
       name: 'Sass',
       link: 'http://sass-lang.com/',
       logo: '../images/logos/sass_logo_words.jpg',
-      type: 'style'
+      type: 'preprocs'
     },
     {
       name: 'Grunt',
       link: 'http://gruntjs.com/',
       logo: '../images/logos/grunt_logo_words.png',
-      type: 'style'
+      type: 'taskrun'
     },
     {
       name: 'Gulp',
       link: 'http://gulpjs.com/',
       logo: '../images/logos/gulp_logo_words.png',
-      type: 'style'
+      type: 'taskrun'
     },
     {
       name: 'JavaScript',
@@ -101,6 +101,12 @@ angular
       name: 'AngularJS',
       link: 'https://angularjs.org/',
       logo: '../images/logos/angular_logo_words.png',
+      type: 'language'
+    },
+    {
+      name: 'JSON',
+      link: 'http://json.org/',
+      logo: '../images/logos/json_logo.gif',
       type: 'language'
     },
     {
@@ -143,12 +149,6 @@ angular
       name: 'Firebase',
       link: 'https://www.firebase.com/',
       logo: '../images/logos/firebase_logo_round.png',
-      type: 'database'
-    },
-    {
-      name: 'JSON',
-      link: 'http://json.org/',
-      logo: '../images/logos/json_logo.gif',
       type: 'database'
     },
     {
