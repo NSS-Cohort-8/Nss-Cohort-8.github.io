@@ -1,12 +1,13 @@
-// @import '../public/vendor/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import '../public/vendor/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import "bourbon";
 @import "neat";
+@import "variables";
 
 /////////////////////////////// HOME VIEW ///////////////////////////////////
 #home {
   //styling for home div
   h1 {
-    color: purple;
+    color: $purple;
   }
 }
 
@@ -14,8 +15,54 @@
 //////////////////// NSS VIEW ///////////////////////////////////
 #nss {
   //styling for nss div
+
+  #logo {
+    text-align: center;
+  }
+
+
+  #skills {
+    background-color: $white;
+    text-align: center;
+  }
+
+  #gitskills,
+  #styleskills,
+  #frameskills,
+  #languageskills,
+  #testskills,
+  #databaseskills {
+    display: inline-block;
+    background-color: $white;
+  }
+
+  p {
+    color: $orange;
+    padding-bottom: 40px;
+  }
+
   h1 {
-    color: blue;
+    color: $orange;
+    font-family: $header-font-family;
+  }
+
+  h4 {
+    color: $light-grey;
+    font-family: $header-font-family;
+  }
+
+  #logo img {
+    height: 200px;
+    padding: 20px;
+    background-color: $white;
+    border: solid 2px $light-grey;
+  }
+
+  img {
+    height: 100px;
+    padding: 10px;
+
+    color: $blue;
   }
 }
 
@@ -23,8 +70,48 @@
 ///////////////////////// STUDENTS VIEW /////////////////////////////
 #students {
   //styling for students div
-  h1 {
-    color: tomato;
+  text-align: center;
+  margin: 1%;
+
+  h2 {
+    color: $dark-grey;
+    padding: 4% 0;
+
+  }
+
+  .modal .modal-content h2 {
+    padding: 0;
+  }
+
+
+  .modal .modal-content img  {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .each-student {
+    display: inline-block;
+    margin: 1% 0.5%;
+    background-color: $white;
+    width: 35rem;
+
+    img {
+      width: 35rem;
+      height: 35rem;
+    }
+
+  }
+
+  .modal-footer {
+    text-align: center;
+  }
+
+  .contact-me {
+    h3 {
+      display: inline-block;
+      margin: 0 3%;
+    }
+
   }
 }
 
@@ -33,7 +120,7 @@
 #contact {
   //styling for contact div here
   h1 {
-    color: green;
+    color: $green;
   }
 }
 
@@ -42,22 +129,30 @@
 #nav-header {
   //styling for nav
   nav {
+    text-align: center;
+    background-color: $orange;
     a {
-      color: orange;
+      color: black;
       text-decoration: none;
     }
     ul li {
       list-style-type: none;
-      display: inline;
       padding: 0 5px;
+      font-family: $sans-serif;
+    }
+    ul li, p {
+      display: inline;
+    }
+    .cohort-title {
+      font-family: $header-font-family;
+      font-size: 2em;
     }
   }
 }
 
-
 /////////////////////////////// HTML ///////////////////////////////////
 body {
-  background-color: #edefed;
+  background-color: $superlight-grey;
 }
 
 

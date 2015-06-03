@@ -1,7 +1,7 @@
 {
   "name": "nss-cohort-8.github.io",
   "version": "1.0.0",
-  "description": "Cohort 8's site.",
+  "description": "Site for Cohort 8, Nashville Software School(NSS)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

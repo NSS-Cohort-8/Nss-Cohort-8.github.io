@@ -10,11 +10,14 @@ html
   body(ng-app='ch8App')
     #nav-header
       nav
-       a(ui-sref='home') Cohort 8
+       a(ui-sref='home').cohort-title Cohort 8
        ul
          li: a(ui-sref='home'): i.fa.fa-home &nbsp; Home
+         p |
          li: a(ui-sref='nss'): i.fa.fa-desktop &nbsp; NSS Stuff
+         p |
          li: a(ui-sref='students'): i.fa.fa-users &nbsp; Individual Student Stuff
+         p |
          li: a(ui-sref='contact'): i.fa.fa-envelope-o &nbsp; Contact Form for the Class
 
   
@@ -22,9 +25,12 @@ html
 
       
     script(src='vendor/jquery/dist/jquery.js')
+    script(src='vendor/bootstrap-sass/assets/javascripts/bootstrap.js')
     script(src='vendor/lodash/lodash.js')
     script(src='vendor/angular/angular.js')
     script(src='vendor/angular-ui-router/release/angular-ui-router.js')
     script(src='index.js')
     script(src='models/students.js')
     script(src='views/students.js')
+    script(src='models/skills.js')
+    script(src='views/skills.js')
