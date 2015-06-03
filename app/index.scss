@@ -41,14 +41,23 @@
 ///////////////////////// NAV /////////////////////////////
 #nav-header {
   //styling for nav
-  a {
-    color: orange;
+  nav {
+    a {
+      color: orange;
+      text-decoration: none;
+    }
+    ul li {
+      list-style-type: none;
+      display: inline;
+      padding: 0 5px;
+    }
   }
 }
-
 
 
 /////////////////////////////// HTML ///////////////////////////////////
 body {
   background-color: #edefed;
 }
+
+
