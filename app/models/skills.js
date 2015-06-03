@@ -26,6 +26,12 @@ angular
       type: 'git'
     },
     {
+      name: 'Haml',
+      link: 'http://haml.info/',
+      logo: '../images/logos/haml_logo_words.png',
+      type: 'git'
+    },
+    {
       name: 'CSS3',
       link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
       logo: '../images/logos/CSS3_logo_words.png',
