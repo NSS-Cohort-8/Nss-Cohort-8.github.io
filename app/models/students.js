@@ -179,7 +179,7 @@ angular
       portfolio: 'http://luketlancaster.com',
       linkedin: 'http://linkedin.com/in/luketlancaster',
       github: 'http://github.com/luketlancaster',
-      twitter: 'http://twitter.com/nashsoftware',
+      twitter: 'http://twitter.com/luketlancaster',
       summary: "Formerly a professional barista and coffee roaster, currently a future coder. Luke enjoys solving problems, be they on a computer screen or with a real life person. He is looking forward to more each and every day.",
       pic1: '../images/biddy1.jpg',
       pic2: '../images/biddy2.jpg'
