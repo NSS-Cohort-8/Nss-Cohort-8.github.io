@@ -1,2 +1,25 @@
 #contact
-  h1 this is the contact page
+
+.container
+  form(action='https://getsimpleform.com/messages?form_api_token=4867d0561d3a04d10b832d413035b392', method='post')
+    .form-group
+      h2 Contact Us!
+      input(class="form-control", type='hidden', name='redirect_to', value='http://nss-cohort-8.github.io')
+      label(for="name") Name:
+      br
+      input.input-block-level(class='form-control', type="text", id='name', name="name", placeholder="John Smith")
+      br
+      label(for='company') Company:
+      br
+      input.input-block-level(class='form-control', ttype="text", id='company',name="company", placeholder="Company")
+      br
+      label Email:
+      br
+      input.input-block-level(class='form-control', ttype="text", name="username", placeholder="Email address")
+      br
+      label Message:
+      br
+      textarea.input-block-level(class='form-control', tname="message", placeholder="How can we help you?", cols="50" rows="10")
+      br
+      button.btn.btn-large.btn-primary(class='form-control', type="submit", value="submit") Send
+
