@@ -1,0 +1,27 @@
+
+<div id="nss">
+  <div id="logo" class="container"><a href="http://nashvillesoftwareschool.com/"><img src="../images/logos/_NSSlogo.jpg" alt="Nashville Software School logo"></a></div>
+  <div id="summary" class="container">
+    <h3>Summary of Cohort 8's experience as NSS Students</h3>
+    <p>writing goes here</p>
+  </div>
+  <div id="skills" class="container">
+    <hr>
+    <!--h4 Version Control & Open Source Resources-->
+    <div id="gitskills" ng-repeat="skill in skills | filter:{type:'git'}"><a href="{{skill.link}}"><img src="{{skill.logo}}" alt="{{skill.name}} logo"></a></div>
+    <hr>
+    <div id="languageskills" ng-repeat="skill in skills | filter:{type:'language'}"><a href="{{skill.link}}"><img src="{{skill.logo}}" alt="{{skill.name}} logo"></a></div>
+    <hr>
+    <div id="styleskills" ng-repeat="skill in skills | filter:{type:'style'}"><a href="{{skill.link}}"><img src="{{skill.logo}}" alt="{{skill.name}} logo"></a></div>
+    <hr>
+    <div id="frameskills" ng-repeat="skill in skills | filter:{type:'frame'}"><a href="{{skill.link}}"><img src="{{skill.logo}}" alt="{{skill.name}} logo"></a></div>
+    <hr>
+    <div id="preprocskills" ng-repeat="skill in skills | filter:{type:'preprocs'}"><a href="{{skill.link}}"><img src="{{skill.logo}}" alt="{{skill.name}} logo"></a></div>
+    <hr>
+    <div id="taskrunskills" ng-repeat="skill in skills | filter:{type:'taskrun'}"><a href="{{skill.link}}"><img src="{{skill.logo}}" alt="{{skill.name}} logo"></a></div>
+    <hr>
+    <div id="testskills" ng-repeat="skill in skills | filter:{type:'test'}"><a href="{{skill.link}}"><img src="{{skill.logo}}" alt="{{skill.name}} logo"></a></div>
+    <hr>
+    <div id="databaseskills" ng-repeat="skill in skills | filter:{type:'database'}"><a href="{{skill.link}}"><img src="{{skill.logo}}" alt="{{skill.name}} logo"></a></div>
+  </div>
+</div>
