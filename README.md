@@ -3,9 +3,9 @@
 * Making a profile page for our class.
 
 ## There should be 4 main divs and a navbar:
-1. Class pic
+1. Home div with Class pic = Brennan
 2. Nss Info = Katye
-3. Individual pics and information
+3. Individual pics and information = Erin
 4. Contact us = Bryan
 5. Navbar = Brennan
 
@@ -14,7 +14,7 @@
 2. additional suggestions...
 
 ### NSS Info
-1. short info about the program? i.e. it is a bootcamp??
+1. short info about the program? i.e. it is a bootcamp?? = Ayumi
 2. technologies we learned. logos + links
 3. additional suggestions...
 
@@ -74,4 +74,3 @@ page should load on localhost:8000
 * I don't think anyone has experience with Bourbon, so lean on each other!! If you see a good resource out there, be sure to share it.
 
 * Added VARIABLES file from the update-in-progress version of the NSS website. It includes NSS's color palette. Please use these colors for development.
-

@@ -1,6 +1,8 @@
 #students
   .title
-    h1 we came to code
+    .title-headers
+      h1 we came to code
+      h4 meet the next generation of web developers
   .each-student(ng-repeat='student in students')
     img(src='{{student.pic1}}' data-toggle='modal' data-target='#myModal{{$index}}')
     h2 {{student.name}}
@@ -9,7 +11,7 @@
       .modal-dialog
         .modal-content
           .modal-header
-            button (type='button' class='close' data-dismiss='modal' arai-label='Close'): span(aria-hidden='true')&times;
+            button(type='button' class='close' data-dismiss='modal' arai-label='Close'): span(aria-hidden='true')&times;
             h2 {{student.name}}
           .modal-body
             .container-fluid

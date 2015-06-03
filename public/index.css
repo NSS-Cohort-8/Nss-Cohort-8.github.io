@@ -5912,7 +5912,23 @@ html {
 
 #students {
   text-align: center;
-  margin: 1%; }
+  margin: 1%;
+  font-family: Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
+  #students .title {
+    background-image: url("images/placeholder-group.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
+    margin: 0 0 2% 0; }
+    #students .title .title-headers {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 5%;
+      font-weight: bold; }
+    #students .title h1 {
+      font-size: 12rem; }
+    #students .title h4 {
+      font-size: 3rem; }
   #students h2 {
     color: #555;
     padding: 4% 0; }

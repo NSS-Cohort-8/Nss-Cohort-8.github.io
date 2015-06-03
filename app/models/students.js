@@ -47,9 +47,9 @@ angular
     {
       name: 'Brandon Howard',
       portfolio: 'https://www.youtube.com/watch?v=cqxgnRjDB_w',
-      linkedin: 'http://linkedin.com/in/wiggles',
+      linkedin: 'https://www.linkedin.com/profile/view?id=395753849&trk=hp-identity-photo',
       github: 'http://github.com/brayhoward',
-      twitter: 'http://twitter.com/wiggles',
+      twitter: 'http://twitter.com/brandonrhoward1',
       summary: 'Brandon is a full-stack developer located in Nashville, TN',
       pic1: '../images/wiggles1.jpg',
       pic2: '../images/wiggles2.jpg'
@@ -107,19 +107,19 @@ angular
     {
       name: 'Dotun Olusoga',
       portfolio: 'https://www.youtube.com/watch?v=cqxgnRjDB_w',
-      linkedin: 'http://linkedin.com/in/wiggles',
+      linkedin: 'https://twitter.com/dotunolusoga',
       github: 'http://github.com/dotunolusoga',
-      twitter: 'http://twitter.com/wiggles',
+      twitter: 'https://twitter.com/dotunolusoga',
       summary: 'Dotun is a full-stack developer located in Nashville, TN',
       pic1: '../images/wiggles1.jpg',
       pic2: '../images/wiggles2.jpg'
     },
     {
       name: 'Ed Dean',
-      portfolio: 'https://www.youtube.com/watch?v=e3F2slF9pCw',
-      linkedin: 'http://linkedin.com/in/biddy',
+      portfolio: 'http://eddean.me',
+      linkedin: 'https://www.linkedin.com/pub/ed-dean/ba/9a2/852',
       github: 'http://github.com/edean11',
-      twitter: 'http://twitter.com/biddy',
+      twitter: 'http://twitter.com/nashsoftware',
       summary: 'Ed is a full-stack developer located in Nashville, TN',
       pic1: '../images/biddy1.jpg',
       pic2: '../images/biddy2.jpg'
@@ -157,9 +157,9 @@ angular
     {
       name: 'Katye Russell',
       portfolio: 'https://www.youtube.com/watch?v=e3F2slF9pCw',
-      linkedin: 'http://linkedin.com/in/biddy',
+      linkedin: 'https://www.linkedin.com/in/katyerussell',
       github: 'http://github.com/complikatyed',
-      twitter: 'http://twitter.com/biddy',
+      twitter: 'http://twitter.com/complikatyed',
       summary: 'Katye is a full-stack developer located in Nashville, TN',
       pic1: '../images/biddy1.jpg',
       pic2: '../images/biddy2.jpg'

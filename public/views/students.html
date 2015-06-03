@@ -1,7 +1,10 @@
 
 <div id="students">
   <div class="title">
-    <h1>we came to code</h1>
+    <div class="title-headers">
+      <h1>we came to code</h1>
+      <h4>meet the next generation of web developers</h4>
+    </div>
   </div>
   <div ng-repeat="student in students" class="each-student"><img src="{{student.pic1}}" data-toggle="modal" data-target="#myModal{{$index}}">
     <h2>{{student.name}}</h2>
@@ -9,7 +12,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <button>(type='button' class='close' data-dismiss='modal' arai-label='Close'): span(aria-hidden='true')&times;</button>
+            <button type="button" data-dismiss="modal" arai-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
             <h2>{{student.name}}</h2>
           </div>
           <div class="modal-body">
