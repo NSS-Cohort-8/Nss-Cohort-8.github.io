@@ -5879,6 +5879,8 @@ html {
 #nss #gitskills,
 #nss #styleskills,
 #nss #frameskills,
+#nss #preprocskills,
+#nss #taskrunskills,
 #nss #languageskills,
 #nss #testskills,
 #nss #databaseskills {
@@ -5936,8 +5938,21 @@ html {
 #contact h1 {
   color: #77c65f; }
 
-#nav-header a {
-  color: #f68b1f; }
+#nav-header nav {
+  text-align: center;
+  background-color: #f68b1f; }
+  #nav-header nav a {
+    color: black;
+    text-decoration: none; }
+  #nav-header nav ul li {
+    list-style-type: none;
+    padding: 0 5px;
+    font-family: Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
+  #nav-header nav ul li, #nav-header nav p {
+    display: inline; }
+  #nav-header nav .cohort-title {
+    font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
+    font-size: 2em; }
 
 body {
   background-color: #e9e9e9; }

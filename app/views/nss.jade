@@ -8,41 +8,54 @@
     p writing goes here
 
   .container(id="skills")
+    
+    hr
+    //h4 Version Control & Open Source Resources
+
+    #gitskills(ng-repeat="skill in skills | filter:{type:'git'}")
+      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
+
     hr
 
     #languageskills(ng-repeat="skill in skills | filter:{type:'language'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}}')
-
-    hr
-    h4 Version Control & Open Source Resources
-
-    #gitskills(ng-repeat="skill in skills | filter:{type:'git'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}}')
+      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
 
 
     hr
-    h4 Styling & Preprocessors
 
     #styleskills(ng-repeat="skill in skills | filter:{type:'style'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}}')
+      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
 
 
     hr
-    h4 Frameworks
 
     #frameskills(ng-repeat="skill in skills | filter:{type:'frame'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}}')
+      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
 
 
     hr
-    h4 Testing Resources
+
+    #preprocskills(ng-repeat="skill in skills | filter:{type:'preprocs'}")
+      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
+
+
+    hr
+
+
+    #taskrunskills(ng-repeat="skill in skills | filter:{type:'taskrun'}")
+      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
+
+
+    hr
+
 
     #testskills(ng-repeat="skill in skills | filter:{type:'test'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}}')
+      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
+
 
     hr
-    h4 Database Resources
+
 
     #databaseskills(ng-repeat="skill in skills | filter:{type:'database'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}}')
+      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
 
