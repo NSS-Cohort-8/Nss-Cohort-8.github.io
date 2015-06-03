@@ -119,7 +119,7 @@ angular
       portfolio: 'http://eddean.me',
       linkedin: 'https://www.linkedin.com/pub/ed-dean/ba/9a2/852',
       github: 'http://github.com/edean11',
-      twitter: 'http://twitter.com/nashsoftware',
+      twitter: 'http://github.com/edean11',
       summary: 'Ed is a full-stack developer located in Nashville, TN',
       pic1: '../images/biddy1.jpg',
       pic2: '../images/biddy2.jpg'
