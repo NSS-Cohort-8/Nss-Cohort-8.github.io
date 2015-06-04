@@ -6,10 +6,9 @@ angular
   var students = [
     {
       name: 'Allison Higgenbotham',
-      portfolio: 'https://www.youtube.com/watch?v=e3F2slF9pCw',
-      linkedin: 'http://linkedin.com/in/biddy',
+      portfolio: 'https://www.allisonhigginbotham.com',
+      linkedin: 'http://linkedin.com/in/allisonhigginbotham',
       github: 'http://github.com/higgintop',
-      twitter: 'http://twitter.com/biddy',
       summary: 'Allison is a full-stack developer located in Nashville, TN',
       pic1: '../images/biddy1.jpg',
       pic2: '../images/biddy2.jpg'
@@ -86,11 +85,10 @@ angular
     },
     {
       name: 'David Shoup',
-      portfolio: 'https://www.youtube.com/watch?v=cqxgnRjDB_w',
-      linkedin: 'http://linkedin.com/in/wiggles',
+      linkedin: 'https://www.linkedin.com/pub/david-shoup/41/760/4a7',
       github: 'http://github.com/pjprogrammer1953',
-      twitter: 'http://twitter.com/wiggles',
-      summary: 'David is a full-stack developer located in Nashville, TN',
+      twitter: 'http://twitter.com/pjinterrogator',
+      summary: 'David is an IBM AS/400 Developer, Linguist, Entry level Web Developer, Intelligence Professional, Bricklayer located in Nashville, TN.',
       pic1: '../images/wiggles1.jpg',
       pic2: '../images/wiggles2.jpg'
     },
@@ -119,18 +117,17 @@ angular
       portfolio: 'http://eddean.me',
       linkedin: 'https://www.linkedin.com/pub/ed-dean/ba/9a2/852',
       github: 'http://github.com/edean11',
-      twitter: 'http://github.com/edean11',
       summary: 'Ed is a full-stack developer located in Nashville, TN',
       pic1: '../images/biddy1.jpg',
       pic2: '../images/biddy2.jpg'
     },
     {
       name: 'Eric Brengle',
-      portfolio: 'https://www.youtube.com/watch?v=cqxgnRjDB_w',
-      linkedin: 'http://linkedin.com/in/wiggles',
+      portfolio: 'https://ericbrengle.com',
+      linkedin: 'http://linkedin.com/pub/eric-brengle/25/3b9/33',
       github: 'http://github.com/ebrengle',
-      twitter: 'http://twitter.com/wiggles',
-      summary: 'Eric is a full-stack developer located in Nashville, TN',
+      twitter: 'http://twitter.com/ericbrengle',
+      summary: "Originally brought to Nashville by the entertainment industry, Eric joined NSS in January of 2015. Upon his departure from Island Def Jam Records, Eric and his wife, Kim, launched their first medical practice in Franklin, TN where Eric headed up the IT and operations of the company. After having success other companies began hiring Eric for his tech savvy expertise, which lead to his passion for software and product development.  When he's away from his text editor Eric can be found training for his next triathlon one mile at a time.",
       pic1: '../images/wiggles1.jpg',
       pic2: '../images/wiggles2.jpg'
     },
