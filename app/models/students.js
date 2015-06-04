@@ -97,7 +97,6 @@ angular
       portfolio: 'http://devinreadel.com',
       linkedin: 'https://www.linkedin.com/in/devinreadel',
       github: 'http://github.com/readeldj',
-      twitter: 'http://twitter.com/nashsoftware',
       summary: 'Devin is a full-stack developer located in Nashville, TN',
       pic1: '../images/biddy1.jpg',
       pic2: '../images/biddy2.jpg'
