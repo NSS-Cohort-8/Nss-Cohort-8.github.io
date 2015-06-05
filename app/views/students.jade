@@ -20,10 +20,10 @@
                   img(src='{{student.pic2}}')
                 .col-md-6
                   .row
-                    h3(ng-show='{{student.portfolio}}'): a(href='{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp Portfolio
+                    h3(ng-show='{{student.portfolio}}'): a(href='http://{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp Portfolio
                   .row.contact-me
-                    h3(ng-show='{{student.linkedin}}'): a(href=' {{student.linkedin}}'): i.fa.fa-linkedin-square
-                    h3(ng-show='{{student.github}}'): a(href='{{student.github}}'): i.fa.fa-github-alt
-                    h3(ng-show='{{student.twitter}}'): a(href='{{student.twitter}}'): i.fa.fa-twitter
+                    h3(ng-show='{{student.linkedin}}'): a(href='https://linkedin.com/{{student.linkedin}}'): i.fa.fa-linkedin-square
+                    h3(ng-show='{{student.github}}'): a(href='http://github.com/{{student.github}}'): i.fa.fa-github-alt
+                    h3(ng-show='{{student.twitter}}'): a(href='https://twitter.com/{{student.twitter}}'): i.fa.fa-twitter
           .modal-footer
             h3 {{student.summary}}
