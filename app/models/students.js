@@ -151,7 +151,7 @@ angular
     },
     {
       name: 'Katye Russell',
-      portfolio: 'complikatyed.github.io/',
+      portfolio: 'complikatyed.github.io',
       linkedin: 'in/katyerussell',
       github: 'complikatyed',
       twitter: 'complikatyed',
