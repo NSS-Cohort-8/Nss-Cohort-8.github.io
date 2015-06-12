@@ -15,10 +15,10 @@ angular
     },
     {
       name: 'Andy Meagher',
-      portfolio: 'youtube.com',
-      linkedin: 'in/biddy',
+      portfolio: 'andymeagher.me',
+      linkedin: 'in/andymeagher',
       github: 'andymeagher',
-      summary: 'Andy is a full-stack developer located in Nashville, TN',
+      summary: "Always on the hunt to learn a new craft, Andy's previous experience ranges from healthcare, construction, to most recently cooking. He is excited to be entering a field where he can always be learning and expanding his skill-sets. Andy holds a Bachelors degree from Fordham University in Psychology and has an interest in creating technology that inspires change and innovation in communities.",
       pic1: '../images/biddy1.jpg',
       pic2: '../images/biddy2.jpg'
     },
@@ -54,11 +54,10 @@ angular
     },
     {
       name: 'Brandon Espinoza',
-      portfolio: 'youtube.com',
-      linkedin: 'in/wiggles',
+      portfolio: 'espinozabrand.com',
+      linkedin: 'in/bespinoza10',
       github: 'bespinoza10',
-      twitter: 'wiggles',
-      summary: 'Brandon is a full-stack developer located in Nashville, TN',
+      summary: 'Brandon is a Front-End Developer who enjoys coding and learning new languages.',
       pic1: '../images/wiggles1.jpg',
       pic2: '../images/wiggles2.jpg'
     },
@@ -102,11 +101,11 @@ angular
     },
     {
       name: 'Dotun Olusoga',
-      portfolio: 'youtube.com',
-      linkedin: 'dotunolusoga',
+      portfolio: 'dotunolusoga.com',
+      linkedin: 'in/adedotunolusoga',
       github: 'dotunolusoga',
       twitter: 'dotunolusoga',
-      summary: 'Dotun is a full-stack developer located in Nashville, TN',
+      summary: 'Dotun is a Software Engineer with a love for creating beautiful UX experiences that bridge the gap between functionality and design. An amateur food conjurer, with a particular fondness for pancakes and hot cocoa, will try anything at least once.',
       pic1: '../images/wiggles1.jpg',
       pic2: '../images/wiggles2.jpg'
     },

@@ -1,8 +1,6 @@
 #nss
-  .container(id="logo")
-    a(href='http://nashvillesoftwareschool.com/'): img(src="../images/logos/_NSSlogo.jpg" alt="Nashville Software School logo")
 
-  .container(id="summary")
+  #summary.container
     h3 Summary of Cohort 8's experience as NSS Students
 
     p Our experience at NSS? Intense and Intensive. For the past six months, we spent the day at school
@@ -16,55 +14,9 @@
     p Below are some of the technologies we've learned in the last six months!
 
 
-  .container(id="skills")
+  #skills.container-fluid
     
-    hr
-    //h4 Version Control & Open Source Resources
+    //- hr
 
-    #gitskills(ng-repeat="skill in skills | filter:{type:'git'}")
+    #gitskills(ng-repeat="skill in skills")
       a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-    hr
-
-    #languageskills(ng-repeat="skill in skills | filter:{type:'language'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-    #styleskills(ng-repeat="skill in skills | filter:{type:'style'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-    #frameskills(ng-repeat="skill in skills | filter:{type:'frame'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-    #preprocskills(ng-repeat="skill in skills | filter:{type:'preprocs'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-
-    #taskrunskills(ng-repeat="skill in skills | filter:{type:'taskrun'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-
-    #testskills(ng-repeat="skill in skills | filter:{type:'test'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-
-    #databaseskills(ng-repeat="skill in skills | filter:{type:'database'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-

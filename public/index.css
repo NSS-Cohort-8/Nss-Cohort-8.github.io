@@ -5876,16 +5876,8 @@ html {
   background-color: #fff;
   text-align: center; }
 
-#nss #gitskills,
-#nss #styleskills,
-#nss #frameskills,
-#nss #preprocskills,
-#nss #taskrunskills,
-#nss #languageskills,
-#nss #testskills,
-#nss #databaseskills {
-  display: inline-block;
-  background-color: #fff; }
+#nss #gitskills {
+  display: inline-block; }
 
 #nss p {
   color: #f68b1f;
@@ -5898,12 +5890,6 @@ html {
 #nss h4 {
   color: #cececf;
   font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
-
-#nss #logo img {
-  height: 200px;
-  padding: 20px;
-  background-color: #fff;
-  border: solid 2px #cececf; }
 
 #nss img {
   height: 100px;
