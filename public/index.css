@@ -5866,8 +5866,8 @@ html {
 *::before {
   box-sizing: inherit; }
 
-#home h1 {
-  color: #926AB2; }
+#home .pic-container img {
+  width: 100%; }
 
 #nss #logo {
   text-align: center; }

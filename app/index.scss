@@ -6,8 +6,12 @@
 /////////////////////////////// HOME VIEW ///////////////////////////////////
 #home {
   //styling for home div
-  h1 {
-    color: $purple;
+  .pic-container {
+    img {
+      width:100%
+    }
+
+
   }
 }
 
