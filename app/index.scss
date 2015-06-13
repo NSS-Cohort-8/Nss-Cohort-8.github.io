@@ -217,7 +217,6 @@
 ///////////////////////// NAV /////////////////////////////
 #nav-header {
   //styling for nav
-
   nav {
     text-align: center;
     background-color: $orange;
@@ -227,7 +226,7 @@
     }
     ul li {
       list-style-type: none;
-      padding: 0 5px;
+      margin: 0 15px;
       font-family: $sans-serif;
     }
     ul li, p {

@@ -5998,7 +5998,7 @@ html {
     text-decoration: none; }
   #nav-header nav ul li {
     list-style-type: none;
-    padding: 0 5px;
+    margin: 0 15px;
     font-family: Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
   #nav-header nav ul li, #nav-header nav p {
     display: inline; }
