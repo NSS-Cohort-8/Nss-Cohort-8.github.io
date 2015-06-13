@@ -24,6 +24,23 @@
   //styling for nss div
   text-align: center;
 
+  #end {
+    background-image: url('images/snapshots/gathering.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
+  }
+
+
+  #school {
+    background-image: url('images/snapshots/omniauth.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
+  }
+
   #program {
     background-image: url('images/snapshots/mollyandy.jpg');
     background-size: cover;
@@ -114,7 +131,7 @@
 
 
   .title {
-    background-image: url('images/placeholder-group.jpeg');
+    background-image: url('images/snapshots/evdudes.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: $header-font-family;

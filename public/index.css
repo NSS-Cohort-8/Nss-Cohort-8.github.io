@@ -5875,6 +5875,18 @@ html {
 
 #nss {
   text-align: center; }
+  #nss #end {
+    background-image: url("images/snapshots/gathering.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0; }
+  #nss #school {
+    background-image: url("images/snapshots/omniauth.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0; }
   #nss #program {
     background-image: url("images/snapshots/mollyandy.jpg");
     background-size: cover;
@@ -5932,7 +5944,7 @@ html {
   margin: 1%;
   font-family: Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
   #students .title {
-    background-image: url("images/placeholder-group.jpeg");
+    background-image: url("images/snapshots/evdudes.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
