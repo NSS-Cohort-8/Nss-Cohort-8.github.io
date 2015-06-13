@@ -188,11 +188,16 @@
     margin: 1% 0;
   }
 
-  h2 {
+  .text {
     text-align: center;
-    color: $dark-grey;
+    color: $white;
+    background-color: rgba(0, 0, 0, .4);
+  }
+
+  h2 {
     font-size: 5rem;
   }
+
 
   form {
     padding: 2% 20% 10%;

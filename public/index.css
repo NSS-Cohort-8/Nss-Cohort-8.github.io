@@ -5973,9 +5973,12 @@ html {
   background-position: center;
   margin: 1% 0; }
 
-#contact h2 {
+#contact .text {
   text-align: center;
-  color: #555;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+#contact h2 {
   font-size: 5rem; }
 
 #contact form {
