@@ -180,9 +180,30 @@
 ///////////////////////// CONTACT VIEW /////////////////////////////
 #contact {
   //styling for contact div here
-  h1 {
-    color: $green;
+  .contact-us {
+    background-image: url('images/snapshots/biddyclouds.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
   }
+
+  h2 {
+    text-align: center;
+    color: $dark-grey;
+    font-size: 5rem;
+  }
+
+  form {
+    padding: 2% 20% 10%;
+    color: $white;
+
+    input, textarea {
+      background-color: rgba(0, 0, 0, .4);
+      color: $white;
+    }
+  }
+
 }
 
 

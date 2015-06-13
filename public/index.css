@@ -5966,8 +5966,24 @@ html {
     display: inline-block;
     margin: 0 3%; }
 
-#contact h1 {
-  color: #77c65f; }
+#contact .contact-us {
+  background-image: url("images/snapshots/biddyclouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1% 0; }
+
+#contact h2 {
+  text-align: center;
+  color: #555;
+  font-size: 5rem; }
+
+#contact form {
+  padding: 2% 20% 10%;
+  color: #fff; }
+  #contact form input, #contact form textarea {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff; }
 
 #nav-header nav {
   text-align: center;
