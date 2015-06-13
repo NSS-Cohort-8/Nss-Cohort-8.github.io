@@ -22,28 +22,54 @@
 //////////////////// NSS VIEW ///////////////////////////////////
 #nss {
   //styling for nss div
+  text-align: center;
 
-  .summary {
-    margin: 2% 5%;
+  #program {
+    background-image: url('images/snapshots/mollyandy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
   }
 
-  #logo {
-    text-align: center;
+  #curriculum {
+    background-image: url('images/snapshots/jurnell.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
   }
+
+  #intense {
+    background-image: url('images/snapshots/tylerjacob.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
+  }
+
+  #hack {
+    background-image: url('images/snapshots/snacktnteam.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
+  }
+
+
 
   .img-div {
     background-color: $white;
-    text-align: center;
+    margin: 1%;
 
     img {
-      width: 30%;
+      width: 20%;
       margin: 1%;
     }
   }
 
   .skills {
     background-color: $white;
-    text-align: center;
   }
 
   #gitskills {
@@ -57,17 +83,16 @@
 
   }
 
-  p {
-    color: $orange;
-    padding-bottom: 1%;
-    font-size: 2rem;
-
+  .text {
+    color: $white;
+    padding: 20%;
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, .3);
   }
 
   h2 {
     color: $orange;
     font-family: $header-font-family;
-    text-align: center;
   }
 
   h4 {
