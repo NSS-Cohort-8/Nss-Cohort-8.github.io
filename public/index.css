@@ -5920,7 +5920,9 @@ html {
     background-color: rgba(0, 0, 0, 0.3); }
   #nss h2 {
     color: #f68b1f;
-    font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
+    font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
+    font-size: 5rem;
+    padding: 2%; }
   #nss h4 {
     color: #cececf;
     font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
