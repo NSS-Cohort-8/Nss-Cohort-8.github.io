@@ -217,11 +217,12 @@
 ///////////////////////// NAV /////////////////////////////
 #nav-header {
   //styling for nav
+
   nav {
     text-align: center;
     background-color: $orange;
     a {
-      color: black;
+      color: $dark-grey;
       text-decoration: none;
     }
     ul li {
@@ -242,4 +243,5 @@
 /////////////////////////////// HTML ///////////////////////////////////
 body {
   background-color: $superlight-grey;
+  padding-top: 70px;
 }
