@@ -1,70 +1,48 @@
 #nss
-  .container(id="logo")
-    a(href='http://nashvillesoftwareschool.com/'): img(src="../images/logos/_NSSlogo.jpg" alt="Nashville Software School logo")
+  h2 Cohort 8 at Nashville Software School
 
-  .container(id="summary")
-    h3 Summary of Cohort 8's experience as NSS Students
-
-    p Our experience at NSS? Intense and Intensive. For the past six months, we spent the day at school
-      learning new and challenging material, writing lots of code and working with other students on projects. And 
-      on nights and weekends, we went to meetups, mixers, hackathons, and worked with other members of the 
-      community on more projects. And wrote more code.
-    p The NSS curriculum has taught us the skills and technologies required 
-      to become a full-stack software developer. And we are now ready and willing
-      to use our new knowledge-and keep on 
-      learning and growing as software development professionals.
-    p Below are some of the technologies we've learned in the last six months!
-
-
-  .container(id="skills")
+  #program.container-fluid
+    .text
+      p We spent 12 weeks on Front-End Development with HTML, CSS, and JavaScript and 12 weeks on Back-End Development with Ruby, Rails, and SQL
     
-    hr
-    //h4 Version Control & Open Source Resources
-
-    #gitskills(ng-repeat="skill in skills | filter:{type:'git'}")
+  .skills.container-fluid
+    #gitskills(ng-repeat="skill in skills")
       a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
 
-    hr
+  #curriculum.container-fluid
+    .text
+      p The NSS curriculum has taught us the skills and technologies required to become a full-stack software developer. 
 
-    #languageskills(ng-repeat="skill in skills | filter:{type:'language'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
+  .img-div.container-fluid
+    img(src='images/snapshots/autin.jpg')
+    img(src='images/snapshots/teachers.jpg')
+    img(src='images/snapshots/dog-friends-1.jpg')
+          
+  #intense.container-fluid
+    .text
+      p Our experience at NSS? Intense and Intensive. 
 
+  .img-div.container-fluid
+    img(src='images/snapshots/gathering.jpg')
+    img(src='images/snapshots/dog-friends-2.jpg')
+      
+  .container-fluid
+    .text
+      p For the past six months, we spent the day at school learning new and challenging material, writing lots of code and working with other students on projects.
 
-    hr
+  .img-div.container-fluid
+    img(src='images/snapshots/gathering.jpg')
+    img(src='images/snapshots/dog-friends-2.jpg')
 
-    #styleskills(ng-repeat="skill in skills | filter:{type:'style'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
+  #hack.container-fluid
+    .text
+      p And on nights and weekends, we went to meetups, mixers, hackathons, and worked with other members of the community on more projects. And wrote more code.
 
+  .img-div.container-fluid
+    img(src='images/snapshots/nashrb.jpg')
+    img(src='images/snapshots/eliza.jpg')
+    img(src='images/snapshots/dog-friends-4.jpg')
 
-    hr
-
-    #frameskills(ng-repeat="skill in skills | filter:{type:'frame'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-    #preprocskills(ng-repeat="skill in skills | filter:{type:'preprocs'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-
-    #taskrunskills(ng-repeat="skill in skills | filter:{type:'taskrun'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-
-    #testskills(ng-repeat="skill in skills | filter:{type:'test'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
-
-    hr
-
-
-    #databaseskills(ng-repeat="skill in skills | filter:{type:'database'}")
-      a(href='{{skill.link}}'): img(src='{{skill.logo}}', alt='{{skill.name}} logo')
-
+  .container-fluid
+    .text
+      p And we are now ready and willing to use our new knowledge-and keep on learning and growing as software development professionals.

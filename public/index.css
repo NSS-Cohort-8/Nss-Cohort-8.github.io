@@ -5866,49 +5866,66 @@ html {
 *::before {
   box-sizing: inherit; }
 
-#home h1 {
-  color: #926AB2; }
-
-#nss #logo {
+#home {
   text-align: center; }
+  #home .pic-container {
+    margin: 4% 5%; }
+    #home .pic-container img {
+      width: 100%; }
 
-#nss #skills {
-  background-color: #fff;
+#nss {
   text-align: center; }
-
-#nss #gitskills,
-#nss #styleskills,
-#nss #frameskills,
-#nss #preprocskills,
-#nss #taskrunskills,
-#nss #languageskills,
-#nss #testskills,
-#nss #databaseskills {
-  display: inline-block;
-  background-color: #fff; }
-
-#nss p {
-  color: #f68b1f;
-  padding-bottom: 40px; }
-
-#nss h1 {
-  color: #f68b1f;
-  font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
-
-#nss h4 {
-  color: #cececf;
-  font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
-
-#nss #logo img {
-  height: 200px;
-  padding: 20px;
-  background-color: #fff;
-  border: solid 2px #cececf; }
-
-#nss img {
-  height: 100px;
-  padding: 10px;
-  color: #2c7fef; }
+  #nss #program {
+    background-image: url("images/snapshots/mollyandy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0; }
+  #nss #curriculum {
+    background-image: url("images/snapshots/jurnell.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0; }
+  #nss #intense {
+    background-image: url("images/snapshots/tylerjacob.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0; }
+  #nss #hack {
+    background-image: url("images/snapshots/snacktnteam.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0; }
+  #nss .img-div {
+    background-color: #fff;
+    margin: 1%; }
+    #nss .img-div img {
+      width: 20%;
+      margin: 1%; }
+  #nss .skills {
+    background-color: #fff; }
+  #nss #gitskills {
+    display: inline-block; }
+    #nss #gitskills img {
+      height: 100px;
+      padding: 10px;
+      color: #2c7fef; }
+  #nss .text {
+    color: #fff;
+    padding: 20%;
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, 0.3); }
+  #nss h2 {
+    color: #f68b1f;
+    font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
+    font-size: 5rem;
+    padding: 2%; }
+  #nss h4 {
+    color: #cececf;
+    font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
 
 #students {
   text-align: center;
@@ -5951,18 +5968,37 @@ html {
     display: inline-block;
     margin: 0 3%; }
 
-#contact h1 {
-  color: #77c65f; }
+#contact .contact-us {
+  background-image: url("images/snapshots/biddyclouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1% 0; }
+
+#contact .text {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+#contact h2 {
+  font-size: 5rem; }
+
+#contact form {
+  padding: 2% 20% 10%;
+  color: #fff; }
+  #contact form input, #contact form textarea {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff; }
 
 #nav-header nav {
   text-align: center;
   background-color: #f68b1f; }
   #nav-header nav a {
-    color: black;
+    color: #555;
     text-decoration: none; }
   #nav-header nav ul li {
     list-style-type: none;
-    padding: 0 5px;
+    margin: 0 15px;
     font-family: Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
   #nav-header nav ul li, #nav-header nav p {
     display: inline; }
@@ -5971,4 +6007,5 @@ html {
     font-size: 2em; }
 
 body {
-  background-color: #e9e9e9; }
+  background-color: #e9e9e9;
+  padding-top: 70px; }

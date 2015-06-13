@@ -6,8 +6,15 @@
 /////////////////////////////// HOME VIEW ///////////////////////////////////
 #home {
   //styling for home div
-  h1 {
-    color: $purple;
+  text-align: center;
+
+  .pic-container {
+    margin: 4% 5%;
+    img {
+      width:100%;
+    }
+
+
   }
 }
 
@@ -15,37 +22,79 @@
 //////////////////// NSS VIEW ///////////////////////////////////
 #nss {
   //styling for nss div
+  text-align: center;
 
-  #logo {
-    text-align: center;
+  #program {
+    background-image: url('images/snapshots/mollyandy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
+  }
+
+  #curriculum {
+    background-image: url('images/snapshots/jurnell.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
+  }
+
+  #intense {
+    background-image: url('images/snapshots/tylerjacob.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
+  }
+
+  #hack {
+    background-image: url('images/snapshots/snacktnteam.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
   }
 
 
-  #skills {
+
+  .img-div {
     background-color: $white;
-    text-align: center;
+    margin: 1%;
+
+    img {
+      width: 20%;
+      margin: 1%;
+    }
   }
 
-  #gitskills,
-  #styleskills,
-  #frameskills,
-  #preprocskills,
-  #taskrunskills,
-  #languageskills,
-  #testskills,
-  #databaseskills {
+  .skills {
+    background-color: $white;
+  }
+
+  #gitskills {
     display: inline-block;
-    background-color: $white;
+
+    img {
+      height: 100px;
+      padding: 10px;
+      color: $blue;
+    }
+
   }
 
-  p {
-    color: $orange;
-    padding-bottom: 40px;
+  .text {
+    color: $white;
+    padding: 20%;
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, .3);
   }
 
-  h1 {
+  h2 {
     color: $orange;
     font-family: $header-font-family;
+    font-size: 5rem;
+    padding: 2%;
   }
 
   h4 {
@@ -53,19 +102,6 @@
     font-family: $header-font-family;
   }
 
-  #logo img {
-    height: 200px;
-    padding: 20px;
-    background-color: $white;
-    border: solid 2px $light-grey;
-  }
-
-  img {
-    height: 100px;
-    padding: 10px;
-
-    color: $blue;
-  }
 }
 
 
@@ -146,9 +182,35 @@
 ///////////////////////// CONTACT VIEW /////////////////////////////
 #contact {
   //styling for contact div here
-  h1 {
-    color: $green;
+  .contact-us {
+    background-image: url('images/snapshots/biddyclouds.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1% 0;
   }
+
+  .text {
+    text-align: center;
+    color: $white;
+    background-color: rgba(0, 0, 0, .4);
+  }
+
+  h2 {
+    font-size: 5rem;
+  }
+
+
+  form {
+    padding: 2% 20% 10%;
+    color: $white;
+
+    input, textarea {
+      background-color: rgba(0, 0, 0, .4);
+      color: $white;
+    }
+  }
+
 }
 
 
@@ -159,12 +221,12 @@
     text-align: center;
     background-color: $orange;
     a {
-      color: black;
+      color: $dark-grey;
       text-decoration: none;
     }
     ul li {
       list-style-type: none;
-      padding: 0 5px;
+      margin: 0 15px;
       font-family: $sans-serif;
     }
     ul li, p {
@@ -180,4 +242,5 @@
 /////////////////////////////// HTML ///////////////////////////////////
 body {
   background-color: $superlight-grey;
+  padding-top: 70px;
 }
