@@ -6,9 +6,12 @@
 /////////////////////////////// HOME VIEW ///////////////////////////////////
 #home {
   //styling for home div
+  text-align: center;
+
   .pic-container {
+    margin: 4% 5%;
     img {
-      width:100%
+      width:100%;
     }
 
 
@@ -20,28 +23,51 @@
 #nss {
   //styling for nss div
 
+  .summary {
+    margin: 2% 5%;
+  }
+
   #logo {
     text-align: center;
   }
 
+  .img-div {
+    background-color: $white;
+    text-align: center;
 
-  #skills {
+    img {
+      width: 30%;
+      margin: 1%;
+    }
+  }
+
+  .skills {
     background-color: $white;
     text-align: center;
   }
 
   #gitskills {
     display: inline-block;
+
+    img {
+      height: 100px;
+      padding: 10px;
+      color: $blue;
+    }
+
   }
 
   p {
     color: $orange;
-    padding-bottom: 40px;
+    padding-bottom: 1%;
+    font-size: 2rem;
+
   }
 
-  h1 {
+  h2 {
     color: $orange;
     font-family: $header-font-family;
+    text-align: center;
   }
 
   h4 {
@@ -49,12 +75,6 @@
     font-family: $header-font-family;
   }
 
-  img {
-    height: 100px;
-    padding: 10px;
-
-    color: $blue;
-  }
 }
 
 

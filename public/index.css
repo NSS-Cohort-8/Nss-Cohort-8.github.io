@@ -5866,35 +5866,50 @@ html {
 *::before {
   box-sizing: inherit; }
 
-#home .pic-container img {
-  width: 100%; }
+#home {
+  text-align: center; }
+  #home .pic-container {
+    margin: 4% 5%; }
+    #home .pic-container img {
+      width: 100%; }
+
+#nss .summary {
+  margin: 2% 5%; }
 
 #nss #logo {
   text-align: center; }
 
-#nss #skills {
+#nss .img-div {
+  background-color: #fff;
+  text-align: center; }
+  #nss .img-div img {
+    width: 30%;
+    margin: 1%; }
+
+#nss .skills {
   background-color: #fff;
   text-align: center; }
 
 #nss #gitskills {
   display: inline-block; }
+  #nss #gitskills img {
+    height: 100px;
+    padding: 10px;
+    color: #2c7fef; }
 
 #nss p {
   color: #f68b1f;
-  padding-bottom: 40px; }
+  padding-bottom: 1%;
+  font-size: 2rem; }
 
-#nss h1 {
+#nss h2 {
   color: #f68b1f;
-  font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
+  font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
+  text-align: center; }
 
 #nss h4 {
   color: #cececf;
   font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
-
-#nss img {
-  height: 100px;
-  padding: 10px;
-  color: #2c7fef; }
 
 #students {
   text-align: center;
