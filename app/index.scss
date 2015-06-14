@@ -129,6 +129,9 @@
   margin: 1%;
   font-family: $base-font-family;
 
+  .pointer {
+    cursor: pointer;
+  }
 
   .title {
     background-image: url('images/snapshots/evdudes.jpg');

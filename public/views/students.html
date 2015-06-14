@@ -6,7 +6,7 @@
       <h4>meet the next generation of web developers</h4>
     </div>
   </div>
-  <div ng-repeat="student in students" class="each-student"><img src="{{student.pic1}}" data-toggle="modal" data-target="#myModal{{$index}}">
+  <div ng-repeat="student in students" class="each-student"><img src="{{student.pic1}}" data-toggle="modal" data-target="#myModal{{$index}}" class="pointer">
     <h2>{{student.name}}</h2>
     <div tabindex="-1" role="dialog" id="myModal{{$index}}" aria-labelledby="myModalLabel" aria-hidden class="modal fade">
       <div class="modal-dialog modal-lg">

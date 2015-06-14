@@ -5943,6 +5943,8 @@ html {
   text-align: center;
   margin: 1%;
   font-family: Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif; }
+  #students .pointer {
+    cursor: pointer; }
   #students .title {
     background-image: url("images/snapshots/evdudes.jpg");
     background-size: cover;

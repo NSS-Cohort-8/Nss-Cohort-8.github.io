@@ -4,7 +4,7 @@
       h1 we came to code
       h4 meet the next generation of web developers
   .each-student(ng-repeat='student in students')
-    img(src='{{student.pic1}}' data-toggle='modal' data-target='#myModal{{$index}}')
+    img.pointer(src='{{student.pic1}}' data-toggle='modal' data-target='#myModal{{$index}}')
     h2 {{student.name}}
 
     .modal.fade(tabindex='-1' role='dialog' id='myModal{{$index}}' aria-labelledby='myModalLabel' aria-hidden=true)
