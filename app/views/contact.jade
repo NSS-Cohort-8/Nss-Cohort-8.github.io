@@ -8,20 +8,17 @@
       form(action='https://getsimpleform.com/messages?form_api_token=6851f4ec0e08c90e52af30293e056236', method='post')
         .form-group
           input(class="form-control", type='hidden', name='redirect_to', value='http://nss-cohort-8.github.io')
+        .form-group
           label(for="name") Name:
-          br
-          input.input-block-level(class='form-control', type="text", id='name', name="name", placeholder="John Smith")
-          br
-          label(for='company') Company:
-          br
-          input.input-block-level(class='form-control', ttype="text", id='company',name="company", placeholder="Company")
-          br
-          label Email:
-          br
-          input.input-block-level(class='form-control', ttype="text", name="username", placeholder="Email address")
-          br
-          label Message:
-          br
-          textarea.input-block-level(class='form-control', tname="message", placeholder="How can we help you?", cols="50" rows="10")
-          br
-          button.btn.btn-large.btn-primary(class='form-control', type="submit", value="submit") Send
+          input#name.form-control.input-block-level(type="text", name="name", placeholder="John Smith")
+        .form-group
+          label.control-label Company:
+          input#company.form-control.input-block-level(type="text",name="company", placeholder="Company")
+        .form-group
+          label.control-label Email:
+          input#email.form-control.input-block-level(type="text", name="email", placeholder="Email address")
+        .form-group
+          label.control-label Message:
+          textarea#message.form-control.input-block-level(name="message", placeholder="How can we help you?", cols="50" rows="10")
+        .form-group
+          button.btn.btn-large.btn-primary.form-control(type="submit", value="submit") Send

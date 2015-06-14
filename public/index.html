@@ -13,16 +13,16 @@
       <nav class="navbar navbar-fixed-top">
         <div class="container-fluid navbar-left">
           <div class="navbar-header">
-            <button data-toggle="collapse" data-target="#navbar-collapse" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
             <div class="navbar-brand"> 
               <p>NSS8 Logo</p><a ui-sref="home" class="cohort-title">Cohort 8</a>
             </div>
           </div>
         </div>
-        <div id="navbar-collapse" class="collapse navbar-collapse">
+        <div id="navbar-collapse-1" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a ui-sref="home"><i class="fa fa-home">&nbsp; Home</i></a></li>
-            <li><a ui-sref="nss"><i class="fa fa-desktop">&nbsp; NSS Program</i></a></li>
+            <li><a ui-sref="nss" data-toggle="collapse" data-target="#navbar-collapse-1"><i class="fa fa-desktop">&nbsp; NSS Program</i></a></li>
             <li><a ui-sref="students"><i class="fa fa-users">&nbsp; Meet the Team</i></a></li>
             <li><a ui-sref="contact"><i class="fa fa-envelope-o">&nbsp; Contact Us</i></a></li>
           </ul>
