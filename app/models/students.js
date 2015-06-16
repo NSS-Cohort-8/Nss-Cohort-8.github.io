@@ -5,7 +5,7 @@ angular
 
   var students = [
     {
-      name: 'Allison Higgenbotham',
+      name: 'Allison Higginbotham',
       portfolio: 'allisonhigginbotham.com',
       linkedin: 'in/allisonhigginbotham',
       github: 'higgintop',
@@ -34,10 +34,10 @@ angular
     },
     {
       name: 'Ayumi Bennett',
-      portfolio: 'youtube.com',
+      portfolio: 'ayumi-b.github.io',
       linkedin: 'in/ayumibennett',
       github: 'ayumi-b',
-      twitter: 'biddy',
+      twitter: 'ayumibennett',
       summary: 'Ayumi is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/ayumi1.jpg',
       pic2: '../images/students/ayumi2.jpg'
