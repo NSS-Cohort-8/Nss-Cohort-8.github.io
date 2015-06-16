@@ -5,7 +5,7 @@ angular
 
   var students = [
     {
-      name: 'Allison Higgenbotham',
+      name: 'Allison Higginbotham',
       portfolio: 'allisonhigginbotham.com',
       linkedin: 'in/allisonhigginbotham',
       github: 'higgintop',
@@ -25,7 +25,7 @@ angular
     {
       name: 'Austin Erlandson',
       portfolio: 'youtube.com',
-      linkedin: 'in/biddy',
+      linkedin: 'in/erlandsona',
       github: 'erlandsona',
       twitter: 'biddy',
       summary: 'Austin is a full-stack developer located in Nashville, TN',
@@ -34,17 +34,17 @@ angular
     },
     {
       name: 'Ayumi Bennett',
-      portfolio: 'youtube.com',
-      linkedin: 'in/biddy',
+      portfolio: 'ayumi-b.github.io',
+      linkedin: 'in/ayumibennett',
       github: 'ayumi-b',
-      twitter: 'biddy',
+      twitter: 'ayumibennett',
       summary: 'Ayumi is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/ayumi1.jpg',
       pic2: '../images/students/ayumi2.jpg'
     },
     {
       name: 'Brandon Howard',
-      portfolio: 'youtube.com',
+      portfolio: 'brandonrhoward.com',
       linkedin: "profile/view?id=395753849&trk=hp-identity-photo",
       github: 'brayhoward',
       twitter: 'brandonrhoward1',
@@ -64,7 +64,7 @@ angular
     {
       name: 'Brennan Willingham',
       portfolio: 'youtube.com',
-      linkedin: 'in/wiggles',
+      linkedin: 'in/brennanwillingham',
       github: 'brenntron',
       twitter: 'wiggles',
       summary: 'Brennan is a full-stack developer located in Nashville, TN',
@@ -74,7 +74,7 @@ angular
     {
       name: 'Bryan Finlayson',
       portfolio: 'youtube.com',
-      linkedin: 'in/wiggles',
+      linkedin: 'in/bryandfinlayson',
       github: 'bdfinlayson',
       twitter: 'wiggles',
       summary: 'Bryan is a full-stack developer located in Nashville, TN',
@@ -191,7 +191,7 @@ angular
     {
       name: 'Matthew Reuther',
       portfolio: 'youtube.com',
-      linkedin: 'in/biddy',
+      linkedin: 'pub/matthew-reuther/68/aa1/870',
       github: 'matthewreuther',
       twitter: 'biddy',
       summary: 'Matthew is a full-stack developer located in Nashville, TN',
@@ -201,7 +201,7 @@ angular
     {
       name: 'Molly Black',
       portfolio: 'youtube.com',
-      linkedin: 'in/wiggles',
+      linkedin: 'pub/molly-morgan-black/2a/183/56b',
       github: 'mollytaryn',
       twitter: 'wiggles',
       summary: 'Molly is a full-stack developer located in Nashville, TN',

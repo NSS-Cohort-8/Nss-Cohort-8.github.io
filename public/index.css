@@ -6019,6 +6019,9 @@ html {
   #nav-header nav .cohort-title {
     font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
     font-size: 2em; }
+  #nav-header nav .nss_logo {
+    width: 100px;
+    height: 100px; }
 
 body {
   background-color: #e9e9e9;
