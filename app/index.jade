@@ -9,28 +9,31 @@ html
     title COHORT 8 is Great
   body(ng-app='ch8App')
     #nav-header.container-fluid
-      nav.navbar.navbar-fixed-top
-        .container-fluid.navbar-left
+      nav.navbar.navbar-default.navbar-fixed-top
+        .container-fluid
+          // Brand and toggle get grouped for better mobile display
           .navbar-header
-            button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#navbar-collapse-1')
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#nss-mobile-nav')
               span.sr-only Toggle navigation
               span.icon-bar
               span.icon-bar
               span.icon-bar
-            .navbar-brand 
-              p NSS8 Logo
-              a(ui-sref='home').cohort-title Cohort 8
+            a.navbar-brand(ui-sref='home').cohort-title
+              img.nss_logo(src='images/logos/nss-8_final_2_1.png')
+          // Collect the nav links, forms, and other content for toggling
+          #nss-mobile-nav.collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right
+              li.active: a(ui-sref='home'): i.fa.fa-home &nbsp; Home
+              li: a(ui-sref='nss' data-toggle='collapse' data-target='#navbar-collapse-1'): i.fa.fa-desktop &nbsp; NSS Program
+              li: a(ui-sref='students'): i.fa.fa-users &nbsp; Meet the Team
+              li: a(ui-sref='contact'): i.fa.fa-envelope-o &nbsp; Contact Us
+          // /.navbar-collapse
+        // /.container-fluid
 
-        #navbar-collapse-1.collapse.navbar-collapse
-          ul.nav.navbar-nav.navbar-right
-            li.active: a(ui-sref='home'): i.fa.fa-home &nbsp; Home
-            li: a(ui-sref='nss' data-toggle='collapse' data-target='#navbar-collapse-1'): i.fa.fa-desktop &nbsp; NSS Program
-            li: a(ui-sref='students'): i.fa.fa-users &nbsp; Meet the Team
-            li: a(ui-sref='contact'): i.fa.fa-envelope-o &nbsp; Contact Us
-  
+
   div(ui-view)
 
-      
+
     script(src='vendor/jquery/dist/jquery.js')
     script(src='vendor/bootstrap-sass/assets/javascripts/bootstrap.js')
     script(src='vendor/lodash/lodash.js')
