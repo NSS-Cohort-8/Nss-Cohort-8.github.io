@@ -24,10 +24,8 @@ angular
     },
     {
       name: 'Austin Erlandson',
-      portfolio: 'youtube.com',
       linkedin: 'in/erlandsona',
       github: 'erlandsona',
-      twitter: 'biddy',
       summary: 'Austin is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/austin1.jpg',
       pic2: '../images/students/austin2.jpg'
@@ -63,20 +61,16 @@ angular
     },
     {
       name: 'Brennan Willingham',
-      portfolio: 'youtube.com',
       linkedin: 'in/brennanwillingham',
       github: 'brenntron',
-      twitter: 'wiggles',
       summary: 'Brennan is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/brennan1.jpg',
       pic2: '../images/students/brennan2.jpg'
     },
     {
       name: 'Bryan Finlayson',
-      portfolio: 'youtube.com',
       linkedin: 'in/bryandfinlayson',
       github: 'bdfinlayson',
-      twitter: 'wiggles',
       summary: 'Bryan is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/bryan1.jpg',
       pic2: '../images/students/bryan2.jpg'
@@ -190,21 +184,19 @@ angular
     },
     {
       name: 'Matthew Reuther',
-      portfolio: 'youtube.com',
       linkedin: 'pub/matthew-reuther/68/aa1/870',
       github: 'matthewreuther',
-      twitter: 'biddy',
       summary: 'Matthew is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/matt1.jpg',
       pic2: '../images/students/matt2.jpg'
     },
     {
       name: 'Molly Black',
-      portfolio: 'youtube.com',
+      portfolio: 'mollymorganblack.com',
       linkedin: 'pub/molly-morgan-black/2a/183/56b',
       github: 'mollytaryn',
-      twitter: 'wiggles',
-      summary: 'Molly is a full-stack developer located in Nashville, TN',
+      twitter: 'mollymoblack',
+      summary: "Molly is a former Product Manager and long-time start-up addict. She graduated from Columbia University in the city of New York with a degree in Neuropsychology and Fiction. (As one does.) Since then, she pretty much has been having a series of adventures from living in Lyon, France teaching English (in French)  at an elementary school, to buying a farm on the outskirts of Leiper's Fork, Tennessee and trying to figure out what one does with 8 acres and two big fluffy dogs. AND – to add another thing to the list of fun and exciting – at the end of June, she will be joining the team at Philly-based start-up LifeVest as a full-stack developer learning to code the Sandi Metz way. Can't wait.",
       pic1: '../images/students/molly1.jpg',
       pic2: '../images/students/molly2.jpg'
     },
