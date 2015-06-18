@@ -17,13 +17,17 @@
             .container-fluid
               .row
                 .col-md-6
-                  img(src='{{student.pic2}}')
+                  img.student-headshot(src='{{student.pic2}}')
                 .col-md-6
                   .row
-                    h3(ng-show='student.portfolio'): a(href='http://{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp Portfolio
-                  .row.contact-me
-                    h3: a(href='https://linkedin.com/{{student.linkedin}}'): i.fa.fa-linkedin-square
-                    h3: a(href='http://github.com/{{student.github}}'): i.fa.fa-github-alt
-                    h3(ng-show='student.twitter'): a(href='https://twitter.com/{{student.twitter}}'): i.fa.fa-twitter
+                    .col-sm-12
+                      ul.student-links
+                        li
+                          a(href='http://{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp;Portfolio
+                        li
+                          a(href='https://linkedin.com/{{student.linkedin}}'): i.fa.fa-linkedin-square &nbsp;LinkedIn
+                        li
+                          a(href='https://twitter.com/{{student.twitter}}'): i.fa.fa-twitter &nbsp;Twitter                        
                   .row
-                    h3 {{student.summary}}
+                    .col-sm-12
+                      p.lead {{student.summary}}
