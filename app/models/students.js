@@ -1,5 +1,4 @@
-angular
-.module('ch8App')
+app
 .factory('StudentsFactory', function () {
   //student data should go here. return an array of objects
 

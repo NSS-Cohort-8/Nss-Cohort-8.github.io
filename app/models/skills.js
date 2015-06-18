@@ -1,8 +1,6 @@
 // This is probably not the most efficient way to display the icons, but
 // for now it's acting as a placeholder for the logo and link data.
-
-angular
-.module('ch8App')
+app
 .factory('SkillsFactory', function () {
   //skills data goes here. return an array of objects
 
@@ -174,5 +172,3 @@ angular
   return skills;
 
 })
-
-
