@@ -3,10 +3,10 @@
 // var $ = require('jquery'),
 //     _ = require('lodash'),
 //     Firebase = require('firebase');
+var app = angular.module('ch8App', ['ui.router']);
 
-angular
-.module('ch8App', ['ui.router'])
-.config(function($stateProvider, $urlRouterProvider){
+
+app.config(function($stateProvider, $urlRouterProvider){
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
@@ -15,4 +15,10 @@ angular
     .state('students', {url:'/students', templateUrl:'views/students.html', controller:'StudentsCtrl'})
     .state('contact', {url:'/contact', templateUrl:'views/contact.html'})
 
+})
+.run(function(){
+  $(".navbar-nav li a").click(function(event){
+    debugger;
+    $(".navbar-collapse").collapse('hide');
+  });
 });

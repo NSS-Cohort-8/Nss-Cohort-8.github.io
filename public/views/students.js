@@ -1,5 +1,4 @@
-angular
-.module('ch8App')
+app
 .controller('StudentsCtrl', function ($rootScope, StudentsFactory){
 
   $rootScope.students = StudentsFactory
