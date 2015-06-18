@@ -5876,47 +5876,34 @@ html {
 #nss {
   text-align: center; }
   #nss #end {
-    background-image: url("images/snapshots/centrecoders.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), center fixed no-repeat url("images/snapshots/centrecoders.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 1% 0; }
   #nss #school {
-    background-image: url("images/snapshots/omniauth.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), center fixed no-repeat url("images/snapshots/omniauth.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 1% 0; }
   #nss #program {
-    background-image: url("images/snapshots/mollyandy.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), center fixed no-repeat url("images/snapshots/mollyandy.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 1% 0; }
   #nss #curriculum {
-    background-image: url("images/snapshots/jurnell.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), center fixed no-repeat url("images/snapshots/jurnell.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 1% 0; }
   #nss #intense {
-    background-image: url("images/snapshots/tylerjacob.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), center fixed no-repeat url("images/snapshots/tylerjacob.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 1% 0; }
   #nss #hack {
-    background-image: url("images/snapshots/snacktnteam.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), center fixed no-repeat url("images/snapshots/snacktnteam.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     margin: 1% 0; }
   #nss .img-div {
-    background-color: #fff;
-    margin: 1%; }
+    background-color: #fff; }
     #nss .img-div img {
-      width: 20%;
-      margin: 1%; }
+      width: 100%;
+      padding: 20px 0; }
   #nss .skills {
     background-color: #fff; }
   #nss #gitskills {
@@ -5928,8 +5915,7 @@ html {
   #nss .text {
     color: #fff;
     padding: 20%;
-    font-size: 4rem;
-    background-color: rgba(0, 0, 0, 0.3); }
+    font-size: 4rem; }
   #nss h2 {
     color: #f68b1f;
     font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
@@ -5946,9 +5932,10 @@ html {
   #students .pointer {
     cursor: pointer; }
   #students .title {
-    background-image: url("images/snapshots/evdudes.jpg");
+    background-image: url("images/snapshots/nsswomen.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     font-family: "Montserrat", Lato, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif, sans-serif;
     margin: 0 0 2% 0; }
     #students .title .title-headers {
@@ -5982,17 +5969,23 @@ html {
     display: inline-block;
     margin: 0 3%; }
 
+.student-headshot {
+  padding: 10px 0; }
+
+.student-links {
+  list-style: none;
+  margin: 1em 0; }
+  .student-links li {
+    font-size: 20px; }
+
 #contact .contact-us {
-  background-image: url("images/snapshots/biddyclouds.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 1% 0; }
+  margin-top: -20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), center fixed no-repeat url("images/snapshots/biddyclouds.jpg");
+  background-size: cover; }
 
 #contact .text {
   text-align: center;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.4); }
+  color: #fff; }
 
 #contact h2 {
   font-size: 5rem; }
@@ -6001,7 +5994,6 @@ html {
   padding: 2% 20% 10%;
   color: #fff; }
   #contact form input, #contact form textarea {
-    background-color: rgba(0, 0, 0, 0.4);
     color: #fff; }
 
 #nav-header nav {
@@ -6009,7 +6001,14 @@ html {
   background-color: #f68b1f; }
   #nav-header nav a {
     color: #555;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: all 300ms ease; }
+    #nav-header nav a:hover {
+      color: white;
+      transition: all 300ms ease; }
+  #nav-header nav ul .active a {
+    background-color: #f68b1f;
+    color: white; }
   #nav-header nav ul li {
     list-style-type: none;
     margin: 0 15px;
@@ -6022,6 +6021,13 @@ html {
   #nav-header nav .nss_logo {
     width: 100px;
     height: 100px; }
+    @media screen and (max-width: 768px) {
+      #nav-header nav .nss_logo {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 7px;
+        left: 7px; } }
 
 body {
   background-color: #e9e9e9;

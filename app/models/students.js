@@ -24,9 +24,10 @@ angular
     },
     {
       name: 'Austin Erlandson',
+      portfolio: 'austin.erlandson.com',
       linkedin: 'in/erlandsona',
       github: 'erlandsona',
-      summary: 'Austin is a full-stack developer located in Nashville, TN',
+      summary: "After graduating Belmont University's commercial music program with an emphasis in music technology, Austin began pursuing opportunities to be a part of the future of the  music tech industry. When he's not downloading the newest plugins for vim, writing macros for refactoring code smells, or generally messing around with his dotfiles… Austin spends his free time writing/recording/producing original music.",
       pic1: '../images/students/austin1.jpg',
       pic2: '../images/students/austin2.jpg'
     },
@@ -184,9 +185,10 @@ angular
     },
     {
       name: 'Matthew Reuther',
+      portfolio: 'matthewreuther.com',
       linkedin: 'pub/matthew-reuther/68/aa1/870',
       github: 'matthewreuther',
-      summary: 'Matthew is a full-stack developer located in Nashville, TN',
+      summary: "Matthew was one of those “Lego Kids” growing up – always building things. After realizing he couldn’t play Legos his entire life, he attended the University of Dayton, where he studied Marketing, not because everyone did, but because he was fascinated with the challenge of connecting products with people. In the summer of 2013, he interned with one of the top-15 accelerators in the country – Jumpstart Foundry. In this internship, he watched the process of Software Engineers turning ideas into amazing applications, reigniting his love of building something from nothing, and leading him to join the eighth cohort at NSS. Matthew can’t wait to take what he’s learned in these last six months and continue his love of building things, for a long time to come.",
       pic1: '../images/students/matt1.jpg',
       pic2: '../images/students/matt2.jpg'
     },
