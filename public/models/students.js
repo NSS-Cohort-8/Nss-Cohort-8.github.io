@@ -144,11 +144,11 @@ app
     },
     {
       name: 'Katye Russell',
-      portfolio: 'complikatyed.github.io',
+      portfolio: 'katyerussell.com',
       linkedin: 'in/katyerussell',
       github: 'complikatyed',
       twitter: 'complikatyed',
-      summary: "In addition to being an aspiring developer, Katye is also a reader, knitter, carpenter, seamstress, polymer artist, ever hopeful guitar student, and mom of two teenagers.",
+      summary: "Previously a 7th grade English teacher, Katye sought a career change when she realized that designing and creating technology tools had taken over the bulk of her prep time.  She misses the excitement of her middle schoolers, but is completely in love with the challenges of full-stack coding.  In addition to being an aspiring developer, Katye is also a reader, knitter, carpenter, seamstress, polymer artist, ever hopeful guitar student, and mom of two teenagers.",
       pic1: '../images/students/katye1.jpg',
       pic2: '../images/students/katye2.jpg'
     },
