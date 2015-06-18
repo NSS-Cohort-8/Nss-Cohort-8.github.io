@@ -7,7 +7,7 @@
     </div>
   </div>
   <div ng-repeat="student in students" class="each-student"><img src="{{student.pic1}}" data-toggle="modal" data-target="#myModal{{$index}}" class="pointer">
-    <h2>{{student.name}}</h2>
+    <h2 class="stdName">{{student.name}}</h2>
     <div tabindex="-1" role="dialog" id="myModal{{$index}}" aria-labelledby="myModalLabel" aria-hidden class="modal fade">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -18,18 +18,21 @@
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-6"><img src="{{student.pic2}}"></div>
+                <div class="col-md-6"><img src="{{student.pic2}}" class="student-headshot"></div>
                 <div class="col-md-6">
                   <div class="row">
-                    <h3 ng-show="student.portfolio"><a href="http://{{student.portfolio}}"><i class="fa fa-floppy-o">&nbsp Portfolio</i></a></h3>
-                  </div>
-                  <div class="row contact-me">
-                    <h3><a href="https://linkedin.com/{{student.linkedin}}"><i class="fa fa-linkedin-square"></i></a></h3>
-                    <h3><a href="http://github.com/{{student.github}}"><i class="fa fa-github-alt"></i></a></h3>
-                    <h3 ng-show="student.twitter"><a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter"></i></a></h3>
+                    <div class="col-sm-12">
+                      <ul class="student-links">
+                        <li><a href="http://{{student.portfolio}}"><i class="fa fa-floppy-o social">&nbsp;Portfolio</i></a></li>
+                        <li><a href="https://linkedin.com/{{student.linkedin}}"><i class="fa fa-linkedin-square social">&nbsp;LinkedIn</i></a></li>
+                        <li><a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter social">&nbsp;Twitter</i></a></li>
+                      </ul>
+                    </div>
                   </div>
                   <div class="row">
-                    <h3>{{student.summary}}</h3>
+                    <div class="col-sm-12">
+                      <p class="lead">{{student.summary}}</p>
+                    </div>
                   </div>
                 </div>
               </div>
