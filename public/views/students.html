@@ -23,9 +23,10 @@
                   <div class="row">
                     <div class="col-sm-12">
                       <ul class="student-links">
-                        <li><a href="http://{{student.portfolio}}"><i class="fa fa-floppy-o">&nbsp;Portfolio</i></a></li>
-                        <li><a href="https://linkedin.com/{{student.linkedin}}"><i class="fa fa-linkedin-square">&nbsp;LinkedIn</i></a></li>
-                        <li><a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter">&nbsp;Twitter                        </i></a></li>
+                        <li ng-show="student.portfolio"><a href="http://{{student.portfolio}}"><i class="fa fa-floppy-o">&nbsp;Portfolio</i></a></li>
+                        <li ng-show="student.linkedin"><a href="https://linkedin.com/{{student.linkedin}}"><i class="fa fa-linkedin-square">&nbsp;LinkedIn</i></a></li>
+                        <li ng-show="student.twitter"><a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter">&nbsp;Twitter   </i></a></li>
+                        <li ng-show="student.github"><a href="https://github.com/{{student.github}}"><i class="fa fa-github-alt">&nbsp;Github                        </i></a></li>
                       </ul>
                     </div>
                   </div>

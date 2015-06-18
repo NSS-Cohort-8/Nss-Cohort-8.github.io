@@ -22,12 +22,15 @@
                   .row
                     .col-sm-12
                       ul.student-links
-                        li
+                        li(ng-show='student.portfolio')
                           a(href='http://{{student.portfolio}}'): i.fa.fa-floppy-o &nbsp;Portfolio
-                        li
+                        li(ng-show='student.linkedin')
                           a(href='https://linkedin.com/{{student.linkedin}}'): i.fa.fa-linkedin-square &nbsp;LinkedIn
-                        li
-                          a(href='https://twitter.com/{{student.twitter}}'): i.fa.fa-twitter &nbsp;Twitter                        
+                        li(ng-show='student.twitter')
+                          a(href='https://twitter.com/{{student.twitter}}'): i.fa.fa-twitter &nbsp;Twitter   
+                        li(ng-show='student.github')
+                          a(href='https://github.com/{{student.github}}'): i.fa.fa-github-alt &nbsp;Github                        
+                     
                   .row
                     .col-sm-12
                       p.lead {{student.summary}}
