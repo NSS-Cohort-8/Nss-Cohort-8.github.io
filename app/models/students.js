@@ -36,7 +36,7 @@ angular
       linkedin: 'in/ayumibennett',
       github: 'ayumi-b',
       twitter: 'ayumibennett',
-      summary: 'Ayumi is a full-stack developer located in Nashville, TN',
+      summary: "Born in Japan but raised in the southern Appalachian Mountains, Ayumi never left Nashville after graduating from Vanderbilt University. A keen observer of people, places and systems, her professional work has involved capturing, in any medium, thoughts and insights about people. Her desire now is to craft an online experience that people yearn to return to.",
       pic1: '../images/students/ayumi1.jpg',
       pic2: '../images/students/ayumi2.jpg'
     },
