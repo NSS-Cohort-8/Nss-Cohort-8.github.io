@@ -7,3 +7,50 @@
     <p>Professional photos by Inge Kathleen Photography | Snapshots by Ayumi Bennett, Erin Page | Logo by Brandon Espinoza</p>
   </div>
 </div>
+
+
+<div id="students">
+  <div class="title">
+    <div class="title-headers">
+      <h1>we came to code</h1>
+      <h4>meet the next generation of web developers</h4>
+    </div>
+  </div>
+  <div ng-repeat="student in students" class="each-student"><img ng-src="{{student.pic1}}" data-toggle="modal" data-target="#myModal{{$index}}" class="pointer">
+    <h2>{{student.name}}</h2>
+    <div tabindex="-1" role="dialog" id="myModal{{$index}}" aria-labelledby="myModalLabel" aria-hidden class="modal fade">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">&times;</span></button>
+            <h2>{{student.name}}</h2>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6"><img ng-src="{{student.pic2}}" class="student-headshot"></div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <ul class="student-links">
+                        <li ng-show="student.portfolio"><a href="http://{{student.portfolio}}"><i class="fa fa-floppy-o">&nbsp;Portfolio</i></a></li>
+                        <li ng-show="student.linkedin"><a href="https://linkedin.com/{{student.linkedin}}"><i class="fa fa-linkedin-square">&nbsp;LinkedIn</i></a></li>
+                        <li ng-show="student.twitter"><a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter">&nbsp;Twitter   </i></a></li>
+                        <li ng-show="student.github"><a href="https://github.com/{{student.github}}"><i class="fa fa-github-alt">&nbsp;Github                        </i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p class="lead">{{student.summary}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
