@@ -42,7 +42,7 @@ app
     },
     {
       name: 'Brandon Howard',
-      portfolio: 'brandonrhoward.com',
+      portfolio: 'http://brayhoward.github.io/portfolio/',
       linkedin: "profile/view?id=395753849&trk=hp-identity-photo",
       github: 'brayhoward',
       twitter: 'brandonrhoward1',
