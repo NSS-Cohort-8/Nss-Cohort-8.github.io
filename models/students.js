@@ -46,7 +46,7 @@ app
       linkedin: "profile/view?id=395753849&trk=hp-identity-photo",
       github: 'brayhoward',
       twitter: 'brandonrhoward1',
-      summary: 'Brandon did all his growing up in Ohio before he decided the midwest just wasn’t his cup of tea. He discovered Nashville two years ago, fell in love with the artist friendly east side, pulled up his roots in the North and headed to the South. Shortly after the move he was made aware of NSS and decided to apply. He made the cut and hasn’t looked back since. Brandon also enjoys climbing big rocks, urban commuting on his bike, kayaking on whitewater laden rivers and creeks, and just has a lot of love for the great outdoors in general.',
+      summary: "Brandon did all his growing up in Ohio before he decided the midwest just wasn’t his cup of tea. He discovered Nashville two years ago, fell in love with the artist-friendly east side, pulled up his roots, and headed to the South. Shortly after the move, he was made aware of NSS and applied. He made the cut and hasn’t looked back since. When not coding, Brandon enjoys climbing big rocks, urban commuting on his bike, kayaking on whitewater, laden rivers, and has a lot of love for the great outdoors in general.",
       pic1: '../images/students/brandonh1.jpg',
       pic2: '../images/students/brandonh2.jpg'
     },
