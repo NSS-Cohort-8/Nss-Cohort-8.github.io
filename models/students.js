@@ -184,7 +184,6 @@ app
     },
     {
       name: 'Matthew Reuther',
-      portfolio: 'matthewreuther.com',
       linkedin: 'pub/matthew-reuther/68/aa1/870',
       github: 'matthewreuther',
       summary: "Matthew was one of those “Lego Kids” growing up – always building things. After realizing he couldn’t play Legos his entire life, he attended the University of Dayton, where he studied Marketing, not because everyone did, but because he was fascinated with the challenge of connecting products with people. In the summer of 2013, he interned with one of the top-15 accelerators in the country – Jumpstart Foundry. In this internship, he watched the process of Software Engineers turning ideas into amazing applications, reigniting his love of building something from nothing, and leading him to join the eighth cohort at NSS. Matthew can’t wait to take what he’s learned in these last six months and continue his love of building things, for a long time to come.",
