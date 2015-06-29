@@ -10,7 +10,8 @@ app
       github: 'higgintop',
       summary: 'Allison is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/allison1.jpg',
-      pic2: '../images/students/allison2.jpg'
+      pic2: '../images/students/allison2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212144675&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Andy Meagher',
@@ -19,7 +20,8 @@ app
       github: 'andymeagher',
       summary: "Always on the hunt to learn a new craft, Andy's previous experience ranges from healthcare, construction, to most recently cooking. He is excited to be entering a field where he can always be learning and expanding his skill-sets. Andy holds a Bachelors degree from Fordham University in Psychology and has an interest in creating technology that inspires change and innovation in communities.",
       pic1: '../images/students/andy1.jpg',
-      pic2: '../images/students/andy2.jpg'
+      pic2: '../images/students/andy2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212144955&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Austin Erlandson',
@@ -28,7 +30,8 @@ app
       github: 'erlandsona',
       summary: "After graduating Belmont University's commercial music program with an emphasis in music technology, Austin began pursuing opportunities to be a part of the future of the  music tech industry. When he's not downloading the newest plugins for vim, writing macros for refactoring code smells, or generally messing around with his dotfiles… Austin spends his free time writing/recording/producing original music.",
       pic1: '../images/students/austin1.jpg',
-      pic2: '../images/students/austin2.jpg'
+      pic2: '../images/students/austin2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212144395&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Ayumi Bennett',
@@ -38,7 +41,8 @@ app
       twitter: 'ayumibennett',
       summary: "Born in Japan but raised in the southern Appalachian Mountains, Ayumi never left Nashville after graduating from Vanderbilt University. A keen observer of people, places and systems, her professional work has involved capturing, in any medium, thoughts and insights about people. Her desire now is to craft an online experience that people yearn to return to.",
       pic1: '../images/students/ayumi1.jpg',
-      pic2: '../images/students/ayumi2.jpg'
+      pic2: '../images/students/ayumi2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212145691&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Brandon Howard',
@@ -48,7 +52,8 @@ app
       twitter: 'brandonrhoward1',
       summary: "Brandon did all his growing up in Ohio before he decided the midwest just wasn’t his cup of tea. He discovered Nashville two years ago, fell in love with the artist-friendly east side, pulled up his roots, and headed to the South. Shortly after the move, he was made aware of NSS and applied. He made the cut and hasn’t looked back since. When not coding, Brandon enjoys climbing big rocks, urban commuting on his bike, kayaking on whitewater, laden rivers, and has a lot of love for the great outdoors in general.",
       pic1: '../images/students/brandonh1.jpg',
-      pic2: '../images/students/brandonh2.jpg'
+      pic2: '../images/students/brandonh2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212146521&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Brandon Espinoza',
@@ -65,7 +70,8 @@ app
       github: 'brenntron',
       summary: 'Brennan is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/brennan1.jpg',
-      pic2: '../images/students/brennan2.jpg'
+      pic2: '../images/students/brennan2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212146868&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Bryan Finlayson',
@@ -73,7 +79,8 @@ app
       github: 'bdfinlayson',
       summary: 'Bryan is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/bryan1.jpg',
-      pic2: '../images/students/bryan2.jpg'
+      pic2: '../images/students/bryan2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212146977&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'David Shoup',
@@ -101,7 +108,8 @@ app
       twitter: 'dotunolusoga',
       summary: 'Dotun is a Software Engineer with a love for creating beautiful UX experiences that bridge the gap between functionality and design. An amateur food conjurer, with a particular fondness for pancakes and hot cocoa, will try anything at least once.',
       pic1: '../images/students/dotun1.jpg',
-      pic2: '../images/students/dotun2.jpg'
+      pic2: '../images/students/dotun2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212146271&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Ed Dean',
@@ -110,7 +118,8 @@ app
       github: 'edean11',
       summary: 'Ed is a full-stack developer located in Nashville, TN',
       pic1: '../images/students/ed1.jpg',
-      pic2: '../images/students/ed2.jpg'
+      pic2: '../images/students/ed2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212147769&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Eric Brengle',
@@ -120,7 +129,8 @@ app
       twitter: 'ericbrengle',
       summary: "Originally brought to Nashville by the entertainment industry, Eric joined NSS in January of 2015. Upon his departure from Island Def Jam Records, Eric and his wife, Kim, launched their first medical practice in Franklin, TN where Eric headed up the IT and operations of the company. After having success other companies began hiring Eric for his tech savvy expertise, which lead to his passion for software and product development.  When he's away from his text editor Eric can be found training for his next triathlon one mile at a time.",
       pic1: '../images/students/eric1.jpg',
-      pic2: '../images/students/eric2.jpg'
+      pic2: '../images/students/eric2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212147175&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Erin Page',
@@ -130,7 +140,8 @@ app
       twitter: 'erinmpage',
       summary: 'Erin has a background encompassing healthcare, research science, manufacturing, logistics, startups, and the military. She is a full-stack developer with a focus on Front-End technologies. Erin is a veteran and proud mother of 2 over-achieving teenage boys. She can be found dragging her entire family (including dog Wiggles) to Hackathons in Nashville, TN',
       pic1: '../images/students/erin1.jpg',
-      pic2: '../images/students/erin2.jpg'
+      pic2: '../images/students/erin2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212147571&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Jacob Lewis',
@@ -140,7 +151,8 @@ app
       twitter: 'jacobdlewis',
       summary: "Jacob is a former humanities major who found his passion for coding while working as a technical writer in Madison, WI. When he realized he enjoyed writing code more than writing about code, he picked up his things, moved to Nashville, and embarked on a new career. When he isn't coding, he can be found playing disc golf or board games.",
       pic1: '../images/students/jake1.jpg',
-      pic2: '../images/students/jake2.jpg'
+      pic2: '../images/students/jake2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212147467&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Katye Russell',
@@ -150,7 +162,8 @@ app
       twitter: 'complikatyed',
       summary: "Previously a 7th grade English teacher, Katye sought a career change when she realized that designing and creating technology tools had taken over the bulk of her prep time.  She misses the excitement of her middle schoolers, but is completely in love with the challenges of full-stack coding.  In addition to being an aspiring developer, Katye is also a reader, knitter, carpenter, seamstress, polymer artist, ever hopeful guitar student, and mom of two teenagers.",
       pic1: '../images/students/katye1.jpg',
-      pic2: '../images/students/katye2.jpg'
+      pic2: '../images/students/katye2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212148963&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Kyle McCormick',
@@ -160,7 +173,8 @@ app
       twitter: 'kylepmccormick',
       summary: 'Kyle is a tech-noir film enthusiast fueled by hot coffee and hotter chicken, turning the wheel of the quivering code conception.',
       pic1: '../images/students/kyle1.jpg',
-      pic2: '../images/students/kyle2.jpg'
+      pic2: '../images/students/kyle2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212148322&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Luke Lancaster',
@@ -170,7 +184,8 @@ app
       twitter: 'luketlancaster',
       summary: "Formerly a professional barista and coffee roaster, currently a future coder. Luke enjoys solving problems, be they on a computer screen or with a real life person. He is looking forward to more each and every day.",
       pic1: '../images/students/luke1.jpg',
-      pic2: '../images/students/luke2.jpg'
+      pic2: '../images/students/luke2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212148611&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Margaret Clinard',
@@ -180,7 +195,8 @@ app
       twitter: 'marrclina',
       summary: 'After working in the field of marketing technology, Margaret decided to take her passion for all things web to the next level by learning to code. With a background in SEO and analytics, she has taken to front-end web development, and hopes to work across disciplines to craft unique user experiences that solve real world problems.',
       pic1: '../images/students/margaret1.jpg',
-      pic2: '../images/students/margaret2.jpg'
+      pic2: '../images/students/margaret2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212149220&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Matthew Reuther',
@@ -188,7 +204,8 @@ app
       github: 'matthewreuther',
       summary: "Matthew was one of those “Lego Kids” growing up – always building things. After realizing he couldn’t play Legos his entire life, he attended the University of Dayton, where he studied Marketing, not because everyone did, but because he was fascinated with the challenge of connecting products with people. In the summer of 2013, he interned with one of the top-15 accelerators in the country – Jumpstart Foundry. In this internship, he watched the process of Software Engineers turning ideas into amazing applications, reigniting his love of building something from nothing, and leading him to join the eighth cohort at NSS. Matthew can’t wait to take what he’s learned in these last six months and continue his love of building things, for a long time to come.",
       pic1: '../images/students/matt1.jpg',
-      pic2: '../images/students/matt2.jpg'
+      pic2: '../images/students/matt2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212149112&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Molly Black',
@@ -198,7 +215,8 @@ app
       twitter: 'mollymoblack',
       summary: "Molly is a former Product Manager and long-time start-up addict. She graduated from Columbia University in the city of New York with a degree in Neuropsychology and Fiction. (As one does.) Since then, she pretty much has been having a series of adventures from living in Lyon, France teaching English (in French)  at an elementary school, to buying a farm on the outskirts of Leiper's Fork, Tennessee and trying to figure out what one does with 8 acres and two big fluffy dogs. AND – to add another thing to the list of fun and exciting – at the end of June, she will be joining the team at Philly-based start-up LifeVest as a full-stack developer learning to code the Sandi Metz way. Can't wait.",
       pic1: '../images/students/molly1.jpg',
-      pic2: '../images/students/molly2.jpg'
+      pic2: '../images/students/molly2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212150078&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     },
     {
       name: 'Tyler Black',
@@ -208,7 +226,8 @@ app
       twitter: 'tyl3rbl4ck',
       summary: 'Junior developer located in Nashville, TN. Tyler loves making great ideas happen!',
       pic1: '../images/students/tyler1.jpg',
-      pic2: '../images/students/tyler2.jpg'
+      pic2: '../images/students/tyler2.jpg',
+      sound: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212149857&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"
     }
 
   ]

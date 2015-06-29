@@ -35,9 +35,12 @@
                       <ul class="student-links">
                         <li ng-show="student.portfolio"><a href="http://{{student.portfolio}}"><i class="fa fa-floppy-o">&nbsp;Portfolio</i></a></li>
                         <li ng-show="student.linkedin"><a href="https://linkedin.com/{{student.linkedin}}"><i class="fa fa-linkedin-square">&nbsp;LinkedIn</i></a></li>
-                        <li ng-show="student.twitter"><a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter">&nbsp;Twitter   </i></a></li>
-                        <li ng-show="student.github"><a href="https://github.com/{{student.github}}"><i class="fa fa-github-alt">&nbsp;Github                        </i></a></li>
+                        <li ng-show="student.twitter"><a href="https://twitter.com/{{student.twitter}}"><i class="fa fa-twitter">&nbsp;Twitter</i></a></li>
+                        <li ng-show="student.github"><a href="https://github.com/{{student.github}}"><i class="fa fa-github-alt">&nbsp;Github</i></a></li>
                       </ul>
+                      <div ng-show="student.sound">
+                        <iframe width="100%" height="166" scrolling="no" frameborder="no" ng-src="{{trustSrc(student.sound)}}"></iframe>
+                      </div>
                     </div>
                   </div>
                   <div class="row">

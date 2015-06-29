@@ -1,5 +1,13 @@
 app
-.controller('StudentsCtrl', function ($rootScope, StudentsFactory){
+.controller('StudentsCtrl', function ($scope, StudentsFactory, $sce){
 
-  $rootScope.students = StudentsFactory
+  $scope.students = StudentsFactory
+
+  $scope.trustSrc = function(src) {
+    return $sce.trustAsResourceUrl(src)
+  }
+
+
+
+
 })
