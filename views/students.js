@@ -7,7 +7,9 @@ app
     return $sce.trustAsResourceUrl(src)
   }
 
-
+  setInterval(function(){
+    console.clear();
+  }, 3000);
 
 
 })
